@@ -25,7 +25,7 @@ def calculate(title, description, id):
         sentence = sentence.replace(",", " e")
         return [w for w in sentence.lower().split() if w not in stop_words]
 
-# Define sentences
+    # Define sentences
     professors = [
         {
             "id": 0,
@@ -44,7 +44,223 @@ def calculate(title, description, id):
             "name": "Adriano Rivolli Da Silva",
             "email": "rivolli@utfpr.edu.br",
             "area": "Aprendizado de Máquina, Inteligência Artificial, Meta-aprendizado, Ferramentas jurídicas, Ferramentas para o mercado financeiro de ações, Sistemas de informação interativo e educativos",
-        }
+        },
+        {
+            "id": 3,
+            "name": "Alessandro Silveira Duarte",
+            "email": "duarte@utfpr.edu.br",
+            "area": "Engenharia de Software",
+        },
+        {
+            "id": 4,
+            "name": "Alexandre LErario",
+            "email": "alerario@utfpr.edu.br",
+            "area": "Desenvolvimento Distribuído, Crowdsourcing, Manutenção de Software, Gestão de Projetos",
+        },
+        {
+            "id": 5,
+            "name": "Alexandre Rômolo Moreira Feitosa",
+            "email": "alexandrefeitosa@utfpr.edu.br",
+            "area": "Desenvolvimento de Software, Programação para Dispositivos Móveis, Informática na Educação, Tutores Inteligentes"
+        },
+        {
+            "id": 6,
+            "name": "Alexandre Rossi Pascoal",
+            "email": "paschoal@utfpr.edu.br ",
+            "area": "Bioinformática, Jogos, Banco de Dados, Aprendizado de Máquina, Desenvolvimento Web, Ferramentas",
+        },
+        {
+            "id": 7,
+            "name": "André Luis dos Santos Domingues",
+            "email": "anddomingues@utfpr.edu.br",
+            "area": "Engenharia de Software",
+        },
+        {
+            "id": 8,
+            "name": "André Luiz Przybysz",
+            "email": "andrelp@utfpr.edu.br",
+            "area": "Desenvolvimento de Software, Desenvolvimento de Novos Produtos, Desenvolvimento Sustentável (ODS), Ferramentas de Tomada de Decisão, Cidades Inteligentes, Engenharia de Software",
+        },
+        {
+            "id": 9,
+            "name": "André Yoshiaki Kashiwabara",
+            "email": "kashiwabara@utfpr.edu.br",
+            "area": "Bioinformática, Reconhecimento de Padrão, Computação Musical, Inteligência Artificial, Teoria da Computação",
+        },
+        {
+            "id": 10,
+            "name": "Antônio Carlos Fernandes da Silva",
+            "email": "antonio@utfpr.edu.br",
+            "area": "Gerenciamento e Projeto de Redes, Arquiteturas de Hardware, Desenvolvimento hardware / Software (arduino, raspberry, UDO, Etc..), Desenvolvimento com FPGAs, Compilação para Hardware",
+        },
+        {
+            "id": 11,
+            "name": "Claiton de Oliveira",
+            "email": "claitonoliveira@utfpr.edu.br",
+            "area": "Visão Computacional, Processamento de Imagens, Computação Gráfica",
+        },
+        {
+            "id": 12,
+            "name": "Cléber Gimenez Corrêa",
+            "email": "clebergimenez@utfpt.edu.br",
+            "area": "Realidade Virtual, Visão Computacional, Teste de Software",
+        },
+        {
+            "id": 13,
+            "name": "Danilo Sipoli Sanches",
+            "email": "danilosanches@utfpr.edu.br",
+            "area": "Inteligência Artificial, Computação Evolutiva, Teoria dos Grafos",
+        },
+        {
+            "id": 14,
+            "name": "Debora Goncalves Ribeiro Dias",
+            "email": "deboraribeiro@utfpr.edu.br",
+            "area": "Tecnologias Assistivas, Ensino de Libras Mediado por Computador",
+        },
+        {
+            "id": 15,
+            "name": "Eduardo Cotrin Texeira",
+            "email": "cotrin@utfpr.edu.br",
+            "area": "Banco de Dados, e-Science (Big Data), Desenvolvimento de Software , Ferramentas Pedagógicas",
+        },
+        {
+            "id": 16,
+            "name": "Eduardo Filgueiras Damasceno",
+            "email": "damasceno@utfpr.edu.br",
+            "area": "Realidade Virtual, Aumentada, Estendida (RV/RA/XR),  Interfaces Naturais - Natural User Interface Aplicações em Saúde - Informática Médica Neurociência e Neurocomputação - Brain Computer Interface Informática na Educação",
+        },
+        {
+            "id": 17,
+            "name": "Érica Ferreira de Souza",
+            "email": "ericasouza@utfpr.edu.br",
+            "area": "Teste de Software Gestão do Conhecimento na Engenharia de Software",
+        },
+        {
+            "id": 18,
+            "name": "Fábio Fernandes da R. Vicente",
+            "email": "fabiofernandes@utfpr.edu.br",
+            "area": "Bioinformática Reconhecimento de Padrões",
+        },
+        {
+            "id": 19,
+            "name": "Fabrício Martins Lopes",
+            "email": "fabricio@utfpr.edu.br",
+            "area": "Bioinformática Reconhecimento de Padrões Inteligência Computacional Processamento de Imagens",
+        },
+        {
+            "id": 20,
+            "name": "Flávia Belintani Blum Haddad",
+            "email": "flaviahaddad@utfpr.edu.br",
+            "area": "Engenharia de software Engenharia de requisitos Processo de software Gestão de Projetos de Software",
+        },
+        {
+            "id": 21,
+            "name": "Francisco Pereira Junior",
+            "email": "fpereira@utfpr.edu.br",
+            "area": "Processamento de Alto Desempenho Programação Paralela e Distribuída Biga Data / Analytics Ciência de Dados Aplicada à Gestão Pública Ciência de Dados Aplicada à Dados Financeiros",
+        },
+        {
+            "id": 22,
+            "name": "Gabriel Canhadas Genvigir",
+            "email": "gabriel@utfpr.edu.br",
+            "area": "Banco de Dados Manutenção de Software Sistemas de Informação",
+        },
+        {
+            "id": 23,
+            "name": "Gabriel Costa Silva",
+            "email": "gabrielcosta@utfpr.edu.br",
+            "area": "Desenvolvimento web Desenvolvimento de aplicações em nuvem/cloudware Evolução arquitetural de software",
+        },
+        {
+            "id": 24,
+            "name": "Giovani Volnei Meinerz",
+            "email": "giovanimeinerz@utfpr.edu.br",
+            "area": "Banco de Dados Gestão de Conhecimento (Big Data)",
+        },
+        {
+            "id": 25,
+            "name": "Henrique Yoshikazu Shishido",
+            "email": "shishido@utfpr.edu.br",
+            "area": "Escalonamento de tarefas Programação para dispositivos móveis Informática em Saúde Computação paralela",
+        },
+        {
+            "id": 26,
+            "name": "José Antonio Gonçalves",
+            "email": "jgoncalves@utfpr.edu.br",
+            "area": "Desenvolvimento de Software Eng. de Software Desenvolvimento Distribuído de Software",
+        },
+        {
+            "id": 27,
+            "name": "José Augusto Fabri",
+            "email": "fabri@utfpr.edu.br",
+            "area": "Engenharia de Software Processo de Software",
+        },
+        {
+            "id": 28,
+            "name": "Katia Romero Felizardo Scannavino",
+            "email": "katiascannavino@utfpr.edu.br",
+            "area": "Engenharia de Software Experimental Revisão Sistemática Mapeamento Sistemático",
+        },
+        {
+            "id": 29,
+            "name": "Lucas Dias Hiera Sampaio",
+            "email": "ldsampaio@utfpr.edu.br",
+            "area": "Segurança em redes de computadores, Sistemas modernos de telecomunicações, Rádio Cognitivo, Blockchain e Aplicações, Otimização e Alocação de Recursos em Telecomunicações",
+        },
+        {
+            "id": 30,
+            "name": "Luciano Tadeu Esteves Pansanato",
+            "email": "luciano@utfpr.edu.br",
+            "area": "Sistemas de Informação Interação Humano-Computador",
+        },
+        {
+            "id": 31,
+            "name": "Natassya Barlate Floro Da Silva",
+            "email": "natassyasilva@utfpr.edu.br",
+            "area": "Redes de Computadores Veículos Autônomos Sistemas Embarcados",
+        },
+        {
+            "id": 33,
+            "name": "Paulo Augusto Nardi",
+            "email": "paulonardi@utfpr.edu.br",
+            "area": "Desenvolvimento de Software Jogos Teste de Software Banco de Dados",
+        },
+        {
+            "id": 33,
+            "name": "Rodrigo Henrique Cunha Palácios",
+            "email": "rodrigopalacios@utfpr.edu.br",
+            "area": "IoT Inteligência Artificial Visão Computacional Projetos de Hardware/Software Processamento Digital de Sinais Robótica",
+        },
+        {
+            "id": 34,
+            "name": "Rogério Santos Pozza",
+            "email": "pozza@utfpr.edu.br",
+            "area": "Redes Corporais / Redes de Sensores sem Fio / Redes Ad Hoc / IoT Sistemas Distribuídos Desenvolvimento de Software (arduino/raspberry/web)",
+        },
+        {
+            "id": 35,
+            "name": "Rosangela de Fátima Pereira Marquesone",
+            "email": "romarquesone@utfpr.edu.br",
+            "area": "Big Data / Analytics Ciência de dados Processamento distribuído Tecnologias digitais aplicadas à economia circular",
+        },
+        {
+            "id": 36,
+            "name": "Silvio Ricardo Rodrigues Sanches",
+            "email": "silviosanches@utfpr.edu.br",
+            "area": "Visão Computacional Realidade Aumentada",
+        },
+        {
+            "id": 37,
+            "name": "Vanderley Flor da Rosa",
+            "email": "vanderley@utfpr.edu.br",
+            "area": "",
+        },
+        {
+            "id": 38,
+            "name": "Willian Massami Watanabe",
+            "email": "wwatanabe@utfpr.edu.br",
+            "area": "Engenharia de Software Desenvolvimento Web Interação Humano-Computador",
+        },
     ]
 
     processed_title = preprocess(title)
@@ -62,13 +278,25 @@ def calculate(title, description, id):
     print(processed_description)
 
     from gensim.models import Word2Vec, KeyedVectors, Doc2Vec
+    import gensim.downloader as api
     from gensim.test.utils import get_tmpfile
     import os
 
-    #print(f"{os.getcwd()}/model/w2v.vectors.kv")
+    # print(f"{os.getcwd()}/model/w2v.vectors.kv")
 
     fname = get_tmpfile(f"{os.getcwd()}/model/w2v.vectors.kv")
     w2v = KeyedVectors.load(fname, mmap="r")
+
+    # usp cbow 1000
+    # fname = get_tmpfile(f"{os.getcwd()}/model/cbow_s1000.txt")
+    # w2v = KeyedVectors.load_word2vec_format(fname)
+
+    # usp cbow 300
+    # fname = get_tmpfile(f"{os.getcwd()}/model/cbow_s300.txt")
+    # w2v = KeyedVectors.load_word2vec_format(fname)
+
+    # Google's dataset pre trained model
+    # w2v = api.load('word2vec-google-news-300')
 
     # for word in processed_title:
     #     print(f"{word}:")
@@ -88,43 +316,41 @@ def calculate(title, description, id):
     min_distance_desc = 0
 
     for professor in professors:
-        #Preprocessing the area sentence
+        # Preprocessing the area sentence
         processed_area = preprocess(professor["area"])
 
-        # 
+        #
         professor["area"] = processed_area
 
         # calculating distances
         title_distance = w2v.wmdistance(processed_title, processed_area)
         description_distance = w2v.wmdistance(processed_description, processed_area)
 
-        #defining the bigger distances
-        if(title_distance > bigger_distance_title):
+        # defining the bigger and minimum distances
+        if title_distance > bigger_distance_title:
             bigger_distance_title = title_distance
-        if(description_distance > bigger_distance_desc):
-            bigger_distance_desc = description_distance
-        if(title_distance < min_distance_title):
+        elif title_distance < min_distance_title:
             min_distance_title = title_distance
-        if(description_distance < min_distance_desc):
+
+        if description_distance > bigger_distance_desc:
+            bigger_distance_desc = description_distance
+        elif description_distance < min_distance_desc:
             min_distance_desc = description_distance
 
         # adding the distances to the professor object
         professor["title_distance"] = str(round(title_distance, 5))
         professor["description_distance"] = str(round(description_distance, 5))
+        professor["mean"] = 0
 
-        print(f"\n\n Title distance {counter} = {title_distance:.4f} \n Desc distance {counter} = {description_distance:.4f}\n")
+        print(
+            f"\n\n Title distance {counter} = {title_distance:.4f} \n Desc distance {counter} = {description_distance:.4f}\n"
+        )
 
         # updating the counter
         counter = counter + 1
     # creating fields that hold the max distances
-    maxDistances = {
-        "title": bigger_distance_title,
-        "description": bigger_distance_desc
-    }
-    minDistances = {
-        "title": min_distance_title,
-        "description": min_distance_desc
-    }
+    maxDistances = {"title": bigger_distance_title, "description": bigger_distance_desc}
+    minDistances = {"title": min_distance_title, "description": min_distance_desc}
 
     # returning the data
     return professors, maxDistances, minDistances

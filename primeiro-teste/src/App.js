@@ -21,8 +21,12 @@ import './App.css';
 
 import PresentationCard from './components/PresentationCard';
 import TheDataGrid from './components/TheDataGrid';
+import TheFooter from './components/TheFooter';
+import InfoAlert from './components/InfoAlert';
 
 function App() {
+  const information = "Veja que a tabela está classificada da menor distância do título para a maior. Caso queira, pode controlar a organização utilizando os botões junto ao cabeçalho. Note também que as distâncias estão normalizadas."
+  const information2 = "O professor que mais corresponde ao que você inseriu é o que tem a menor distância!"
 
   const [answer, setAnswer] = useState()
   const [answerMax, setAnswerMax] = useState()
@@ -37,7 +41,6 @@ function App() {
   const [running, setRunning] = useState(false)
 
   const validateInputs = () => {
-    /*
     if (title.trim() === '' || title.trim().length < 10) {
       setErrorMessage("O título deve ter mais de 10 caracteres!")
       setOpenError(true)
@@ -52,13 +55,14 @@ function App() {
     }
     else {
       makeRequest()
-    } */
-    makeRequest()
+    }
   }
 
   useEffect(() => {
-    console.log("Deu boa!");
-    handlePercetage()
+    if(answer){
+      console.log("deu boa!")
+      handlePercetage()
+    }
   }, [answer]);
 
   const makeRequest = () => {
@@ -129,13 +133,13 @@ function App() {
   const handlePercetage = () => {
     for(var key in answer){
         var professor = answer[key]
-        const percentage = 100 * (professor.title_distance - answerMin.title) / (answerMax.title - answerMin.title)
-        //let percentage = ((100 * parseFloat(professor.title_distance).toFixed(4))/answerMax.title).toFixed(2)
-        //percentage = parseFloat(100 - parseFloat(percentage))
-        console.log(percentage)
-        console.log(answerMax.title)
-        //professor.title_distance = (parseFloat(percentage).toFixed(2))
-        professor.title_distance = percentage.toFixed(2)
+        const percentage_title = 100 * (professor.title_distance - answerMin.title) / (answerMax.title - answerMin.title)
+        const percentage_desc = 100 * (professor.description_distance - answerMin.description) / (answerMax.description - answerMin.description)
+        
+        professor.title_distance = percentage_title.toFixed(2)
+        professor.description_distance = percentage_desc.toFixed(2)
+
+        professor.mean = ((percentage_title + percentage_desc)/2).toFixed(2)
     }
 }
 
@@ -177,14 +181,21 @@ function App() {
 
       </Card>
 
-      <Card sx={{ marginTop: '1rem', marginBottom: '1rem' }}>
+        {
+          answer ?
+          <InfoAlert info={information} info2={information2}></InfoAlert>
+          :
+          null          
+        }
+
         {
           answer ?
           <TheDataGrid data={answer} maxValues={answerMax} />
           :
           null          
         }
-      </Card>
+
+      <TheFooter></TheFooter>
 
       <Snackbar open={openError} autoHideDuration={4000} onClose={handleClose}
         anchorOrigin={{ vertical: "top", horizontal: "right" }} key="error">
