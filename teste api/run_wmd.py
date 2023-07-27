@@ -220,7 +220,7 @@ def calculate(title, description, id):
             "area": "Redes de Computadores Veículos Autônomos Sistemas Embarcados",
         },
         {
-            "id": 33,
+            "id": 32,
             "name": "Paulo Augusto Nardi",
             "email": "paulonardi@utfpr.edu.br",
             "area": "Desenvolvimento de Software Jogos Teste de Software Banco de Dados",
@@ -253,7 +253,7 @@ def calculate(title, description, id):
             "id": 37,
             "name": "Vanderley Flor da Rosa",
             "email": "vanderley@utfpr.edu.br",
-            "area": "",
+            "area": "Engenharia de Software",
         },
         {
             "id": 38,
@@ -311,9 +311,11 @@ def calculate(title, description, id):
 
     counter = 0
     bigger_distance_title = 0
-    min_distance_title = 0
+    min_distance_title = 100
     bigger_distance_desc = 0
-    min_distance_desc = 0
+    min_distance_desc = 100
+
+    import math 
 
     for professor in professors:
         # Preprocessing the area sentence
@@ -326,31 +328,36 @@ def calculate(title, description, id):
         title_distance = w2v.wmdistance(processed_title, processed_area)
         description_distance = w2v.wmdistance(processed_description, processed_area)
 
-        # defining the bigger and minimum distances
-        if title_distance > bigger_distance_title:
-            bigger_distance_title = title_distance
-        elif title_distance < min_distance_title:
-            min_distance_title = title_distance
+        if( (not math.isinf(title_distance)) or (not math.isinf(description_distance)) ):
+            # defining the bigger and minimum distances
+            if title_distance > bigger_distance_title:
+                bigger_distance_title = title_distance
+            elif title_distance < min_distance_title:
+                min_distance_title = title_distance
 
-        if description_distance > bigger_distance_desc:
-            bigger_distance_desc = description_distance
-        elif description_distance < min_distance_desc:
-            min_distance_desc = description_distance
+            if description_distance > bigger_distance_desc:
+                bigger_distance_desc = description_distance
+            elif description_distance < min_distance_desc:
+                min_distance_desc = description_distance
 
-        # adding the distances to the professor object
-        professor["title_distance"] = str(round(title_distance, 5))
-        professor["description_distance"] = str(round(description_distance, 5))
-        professor["mean"] = 0
+            # adding the distances to the professor object
+            professor["title_distance"] = str(round(title_distance, 5))
+            professor["description_distance"] = str(round(description_distance, 5))
+            professor["mean"] = 0
 
-        print(
-            f"\n\n Title distance {counter} = {title_distance:.4f} \n Desc distance {counter} = {description_distance:.4f}\n"
-        )
-
+            print(
+                f"\n\n Title distance {counter} = {title_distance:.4f} \n Desc distance {counter} = {description_distance:.4f}\n"
+            )
         # updating the counter
         counter = counter + 1
     # creating fields that hold the max distances
-    maxDistances = {"title": bigger_distance_title, "description": bigger_distance_desc}
-    minDistances = {"title": min_distance_title, "description": min_distance_desc}
+    maxDistances = {"title": str(bigger_distance_title), "description": str(bigger_distance_desc)}
+    minDistances = {"title": str(min_distance_title), "description": str(min_distance_desc)}
+
+    print("Max distances: ")
+    print(maxDistances)
+    print("Min distances: ")
+    print(minDistances)
 
     # returning the data
     return professors, maxDistances, minDistances

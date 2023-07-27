@@ -31,8 +31,8 @@ function App() {
   const [answer, setAnswer] = useState()
   const [answerMax, setAnswerMax] = useState()
   const [answerMin, setAnswerMin] = useState()
-  const [title, setTitle] = useState("")
-  const [description, setDescription] = useState("")
+  const [title, setTitle] = useState("Inteligência artificial em ferramentas jurídicas")
+  const [description, setDescription] = useState("Estudo de caso do uso das IAs no sistema jurídico brasileiro.")
   const [openError, setOpenError] = useState(false)
   const [openSuccess, setOpenSuccess] = useState(false)
   const [errorMessage, setErrorMessage] = useState("")
@@ -133,13 +133,20 @@ function App() {
   const handlePercetage = () => {
     for(var key in answer){
         var professor = answer[key]
+
+        professor.title_distance = Number(professor.title_distance)
+        professor.description_distance = Number(professor.description_distance)
+        answerMin.title = Number(answerMin.title)
+        answerMax.title = Number(answerMax.title)
+
         const percentage_title = 100 * (professor.title_distance - answerMin.title) / (answerMax.title - answerMin.title)
         const percentage_desc = 100 * (professor.description_distance - answerMin.description) / (answerMax.description - answerMin.description)
-        
-        professor.title_distance = percentage_title.toFixed(2)
-        professor.description_distance = percentage_desc.toFixed(2)
 
-        professor.mean = ((percentage_title + percentage_desc)/2).toFixed(2)
+        professor.title_distance = 100 - percentage_title.toFixed(2)
+        professor.description_distance = 100 - percentage_desc.toFixed(2)
+
+        professor.mean = 100 - ((percentage_title + percentage_desc)/2).toFixed(2)
+        professor.mean = Number(professor.mean)
     }
 }
 
