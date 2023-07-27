@@ -15,13 +15,13 @@ function TheDataGrid({ data, maxValues }) {
         },
         {
             field: 'description_distance',
-            headerName: 'Distância do descrição',
+            headerName: 'Dist. descrição',
             type: 'number',
             width: 100
         },
         {
             field: 'mean',
-            headerName: 'Média das distâncias',
+            headerName: 'Média',
             description: 'Essa coluna não é classificável.',
             sortable: false,
             valueGetter: (params) => {
