@@ -20,10 +20,13 @@ import axios from 'axios'
 import './App.css';
 
 import PresentationCard from './components/PresentationCard';
+import TheDataGrid from './components/TheDataGrid';
 
 function App() {
 
   const [answer, setAnswer] = useState()
+  const [answerMax, setAnswerMax] = useState()
+  const [answerMin, setAnswerMin] = useState()
   const [title, setTitle] = useState("")
   const [description, setDescription] = useState("")
   const [openError, setOpenError] = useState(false)
@@ -34,6 +37,7 @@ function App() {
   const [running, setRunning] = useState(false)
 
   const validateInputs = () => {
+    /*
     if (title.trim() === '' || title.trim().length < 10) {
       setErrorMessage("O título deve ter mais de 10 caracteres!")
       setOpenError(true)
@@ -48,11 +52,13 @@ function App() {
     }
     else {
       makeRequest()
-    }
+    } */
+    makeRequest()
   }
 
   useEffect(() => {
-    console.log("Deu boa! : " + JSON.stringify(answer));
+    console.log("Deu boa!");
+    handlePercetage()
   }, [answer]);
 
   const makeRequest = () => {
@@ -65,7 +71,9 @@ function App() {
     setRunning(true)
     axios.post("http://127.0.0.1:8000/items/{item.id}", obj)
       .then(function (response) {
-        setAnswer(response.data)
+        setAnswer(response.data[0])
+        setAnswerMax(response.data[1])
+        setAnswerMin(response.data[2])
         resetInputs()
         setSuccessMessage("Tudo certo!")
         setOpenSuccess(true)
@@ -118,6 +126,19 @@ function App() {
     }
   }
 
+  const handlePercetage = () => {
+    for(var key in answer){
+        var professor = answer[key]
+        const percentage = 100 * (professor.title_distance - answerMin.title) / (answerMax.title - answerMin.title)
+        //let percentage = ((100 * parseFloat(professor.title_distance).toFixed(4))/answerMax.title).toFixed(2)
+        //percentage = parseFloat(100 - parseFloat(percentage))
+        console.log(percentage)
+        console.log(answerMax.title)
+        //professor.title_distance = (parseFloat(percentage).toFixed(2))
+        professor.title_distance = percentage.toFixed(2)
+    }
+}
+
   // link do icone https://icons8.com.br/icon/nWljDzRch4Az/find
 
   return (
@@ -156,13 +177,10 @@ function App() {
 
       </Card>
 
-      <Card>
+      <Card sx={{ marginTop: '1rem', marginBottom: '1rem' }}>
         {
           answer ?
-          <div>
-            <p>Nome: {answer.nome}</p> 
-            <p>Email: {answer.email}</p>
-          </div>
+          <TheDataGrid data={answer} maxValues={answerMax} />
           :
           null          
         }

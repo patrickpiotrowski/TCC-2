@@ -1,13 +1,10 @@
-def calculate(title, description):
+def calculate(title, description, id):
     # Initialize logging.
     import logging
 
     logging.basicConfig(
         format="%(asctime)s : %(levelname)s : %(message)s", level=logging.INFO
     )
-
-    sentence_obama = "O rato roeu a roupa do Rei de Roma"
-    sentence_president = "O camundongo dilascerou as vestes do Senhor Romano"
 
     ###############################################################################
     # These sentences have very similar content, and as such the WMD should be low.
@@ -29,32 +26,30 @@ def calculate(title, description):
         return [w for w in sentence.lower().split() if w not in stop_words]
 
 # Define sentences
-    professores = [
+    professors = [
         {
-            "nome": "Adriana Herden",
+            "id": 0,
+            "name": "Adriana Herden",
             "email": "herden@utfpr.edu.br",
             "area": "Engenharia de Software, Qualidade de Software, BPMN, BPMS, Robótica Educacional, Gerenciamento Ágil de Projetos",
         },
         {
-            "nome": "Adriane Carla Anastácio da Silva",
+            "id": 1,
+            "name": "Adriane Carla Anastácio da Silva",
             "email": "anastacio@utfpr.edu.br",
             "area": "Engenharia de Software, Informática na Educação",
         },
         {
-            "nome": "Adriano Rivolli Da Silva",
+            "id": 2,
+            "name": "Adriano Rivolli Da Silva",
             "email": "rivolli@utfpr.edu.br",
             "area": "Aprendizado de Máquina, Inteligência Artificial, Meta-aprendizado, Ferramentas jurídicas, Ferramentas para o mercado financeiro de ações, Sistemas de informação interativo e educativos",
         }
     ]
 
-    title_distance_list = []
-    description_distance_list = []
-
     processed_title = preprocess(title)
     processed_description = preprocess(description)
 
-    processed_sentence_obama = preprocess(sentence_obama)
-    processed_sentence_president = preprocess(sentence_president)
     ###############################################################################
     # Now, as mentioned earlier, we will be using some downloaded pre-trained
     # embeddings. We load these into a Gensim Word2Vec model class.
@@ -64,45 +59,72 @@ def calculate(title, description):
     #
 
     print(processed_title)
+    print(processed_description)
 
     from gensim.models import Word2Vec, KeyedVectors, Doc2Vec
     from gensim.test.utils import get_tmpfile
     import os
 
-    print(f"{os.getcwd()}/model/w2v.vectors.kv")
+    #print(f"{os.getcwd()}/model/w2v.vectors.kv")
 
-    fname = get_tmpfile(f"{os.getcwd()}/./model/w2v.vectors.kv")
+    fname = get_tmpfile(f"{os.getcwd()}/model/w2v.vectors.kv")
     w2v = KeyedVectors.load(fname, mmap="r")
 
-    for word in processed_title:
-        print(f"{word}:")
-        print("-" * 28)
-        for w in w2v.most_similar(word)[:3]:
-            print(w[0].ljust(20), round(w[1], 5))
-        print()
+    # for word in processed_title:
+    #     print(f"{word}:")
+    #     print("-" * 28)
+    #     for w in w2v.most_similar(word)[:3]:
+    #         print(w[0].ljust(20), round(w[1], 5))
+    #     print()
 
     ###############################################################################
     # So let's compute WMD using the ``wmdistance`` method.
     #
-    contador = 0
 
-    for professor in professores:
-        sentence = preprocess(professor['area'])
-        print(f"\n sentence: {sentence} \n")
-        distance = w2v.wmdistance(processed_title, sentence)
-        title_distance_list.append(distance)
-        print(f"\n\n distance {contador} = {distance:.4f} \n\n")
-        contador = contador + 1
+    counter = 0
+    bigger_distance_title = 0
+    min_distance_title = 0
+    bigger_distance_desc = 0
+    min_distance_desc = 0
 
-    print(title_distance_list)
-    indice_menor_valor = title_distance_list.index(min(title_distance_list))
-    print(f"Menor indice: {indice_menor_valor}")
-    return professores[indice_menor_valor]
+    for professor in professors:
+        #Preprocessing the area sentence
+        processed_area = preprocess(professor["area"])
 
-    ###############################################################################
-    # Let's try the same thing with two completely unrelated sentences. Notice that the distance is larger.
-    #
-    # sentence_orange = preprocess("Laranja é minha fruta favorita")
-    # distance = w2v.wmdistance(processed_sentence_obama, sentence_orange)
+        # 
+        professor["area"] = processed_area
 
-    # print("\n\n distance ruim = %.4f \n\n" % distance)
+        # calculating distances
+        title_distance = w2v.wmdistance(processed_title, processed_area)
+        description_distance = w2v.wmdistance(processed_description, processed_area)
+
+        #defining the bigger distances
+        if(title_distance > bigger_distance_title):
+            bigger_distance_title = title_distance
+        if(description_distance > bigger_distance_desc):
+            bigger_distance_desc = description_distance
+        if(title_distance < min_distance_title):
+            min_distance_title = title_distance
+        if(description_distance < min_distance_desc):
+            min_distance_desc = description_distance
+
+        # adding the distances to the professor object
+        professor["title_distance"] = str(round(title_distance, 5))
+        professor["description_distance"] = str(round(description_distance, 5))
+
+        print(f"\n\n Title distance {counter} = {title_distance:.4f} \n Desc distance {counter} = {description_distance:.4f}\n")
+
+        # updating the counter
+        counter = counter + 1
+    # creating fields that hold the max distances
+    maxDistances = {
+        "title": bigger_distance_title,
+        "description": bigger_distance_desc
+    }
+    minDistances = {
+        "title": min_distance_title,
+        "description": min_distance_desc
+    }
+
+    # returning the data
+    return professors, maxDistances, minDistances

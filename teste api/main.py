@@ -47,5 +47,5 @@ def read_item(item_id: int):
 @app.post("/items/{item.id}")
 async def create_item(item: Item):
     items.append(item)
-    result = calculate(item.title, item.description)
+    result = calculate(item.title, item.description, item.id)
     return result
