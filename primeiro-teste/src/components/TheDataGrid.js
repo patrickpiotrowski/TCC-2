@@ -7,31 +7,28 @@ function TheDataGrid({ data, maxValues }) {
     const columns = [
         { field: 'id', headerName: 'ID', width: 50, sortable: false },
         { field: 'name', headerName: 'Professor', sortable: false, description: 'Essa coluna não é classificável.', width: 250 },
-        { field: 'email', headerName: 'Email', sortable: false, description: 'Essa coluna não é classificável.', width: 200 },
+        { field: 'email', headerName: 'Email', sortable: false, description: 'Essa coluna não é classificável.', width: 250 },
         {
             field: 'title_distance',
-            headerName: 'Dist. título',
+            headerName: ' % Título',
             type: 'number',
-            width: 100
+            width: 200
         },
         {
             field: 'description_distance',
-            headerName: 'Dist. descrição',
+            headerName: '% Descrição',
             type: 'number',
-            width: 100
+            width: 200
         },
         {
             field: 'mean',
-            headerName: 'Média',
+            headerName: '% Média',
             type: 'number',
-            width: 100
+            width: 200
         },
     ];
 
     const rows = data
-
-    // TODO: implementar o cálculo da média pra poder colocar na coluna (inserir a média em cada obj)
-
 
     return (
         <Card sx={{ marginTop: '1rem', marginBottom: '1rem' }}>
@@ -40,7 +37,7 @@ function TheDataGrid({ data, maxValues }) {
                 columns={columns}
                 initialState={{
                     pagination: {
-                        paginationModel: { page: 0, pageSize: 5 },
+                        paginationModel: { page: 0, pageSize: 10 },
                     },
                     columns: {
                         columnVisibilityModel: {
@@ -51,7 +48,7 @@ function TheDataGrid({ data, maxValues }) {
                         sortModel: [{ field: 'title_distance', sort: 'asc' }],
                     },
                 }}
-                pageSizeOptions={[5, 10]}
+                pageSizeOptions={[5, 10, 15, 20, 25, 30, 35, 40, 45, 50]}
                 slots={{
                     toolbar: GridToolbar,
                 }} 

@@ -1,10 +1,13 @@
 from typing import Union
-
-from fastapi import FastAPI
+import asyncio
+from fastapi import FastAPI, WebSocket
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 from run_wmd import calculate
+
+# Lista para armazenar clientes WebSocket conectados
+websocket_clients = []
 
 items = []
 
@@ -47,5 +50,4 @@ def read_item(item_id: int):
 @app.post("/items/{item.id}")
 async def create_item(item: Item):
     items.append(item)
-    result = calculate(item.title, item.description, item.id)
-    return result
+    return calculate(item.title, item.description, item.id)

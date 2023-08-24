@@ -8,12 +8,15 @@ import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import { useState, useEffect } from 'react';
 import Snackbar from '@mui/material/Snackbar';
-import MuiAlert from '@mui/material/Alert';
+import Alert from '@mui/material/Alert';
 import Checkbox from '@mui/material/Checkbox';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import CircularProgress from '@mui/material/CircularProgress';
 import { CardActions } from '@mui/material';
+import HighlightOffIcon from '@mui/icons-material/HighlightOff';
+import InputAdornment from '@mui/material/InputAdornment';
+import IconButton from '@mui/material/IconButton';
 
 import axios from 'axios'
 
@@ -25,8 +28,9 @@ import TheFooter from './components/TheFooter';
 import InfoAlert from './components/InfoAlert';
 
 function App() {
-  const information = "Veja que a tabela está classificada da menor distância do título para a maior. Caso queira, pode controlar a organização utilizando os botões junto ao cabeçalho. Note também que as distâncias estão normalizadas."
-  const information2 = "O professor que mais corresponde ao que você inseriu é o que tem a menor distância!"
+  const information = "Veja que a tabela está classificada da melhor correspondência do título para a menor. Caso queira, pode trocar a organização da tabela utilizando os botões junto ao cabeçalho."
+  const information2 = "Caso queira saber o como a porcentagem da correnspondência é calculada, você pode ver as fórmulas"
+  const information3 = "100% de correspondência NÃO significa que o professor é totalmente compatível, mas sim que, dentre as opções, essa é a melhor calculada pelo algorítmo."
 
   const [answer, setAnswer] = useState()
   const [answerMax, setAnswerMax] = useState()
@@ -59,8 +63,7 @@ function App() {
   }
 
   useEffect(() => {
-    if(answer){
-      console.log("deu boa!")
+    if (answer) {
       handlePercetage()
     }
   }, [answer]);
@@ -96,10 +99,6 @@ function App() {
     setTitle("")
   }
 
-  const Alert = React.forwardRef(function Alert(props, ref) {
-    return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />
-  })
-
   const handleClose = (event, reason) => {
     if (reason === 'clickaway') {
       return
@@ -131,40 +130,65 @@ function App() {
   }
 
   const handlePercetage = () => {
-    for(var key in answer){
-        var professor = answer[key]
+    for (var key in answer) {
+      var professor = answer[key]
 
-        professor.title_distance = Number(professor.title_distance)
-        professor.description_distance = Number(professor.description_distance)
-        answerMin.title = Number(answerMin.title)
-        answerMax.title = Number(answerMax.title)
+      professor.title_distance = Number(professor.title_distance)
+      professor.description_distance = Number(professor.description_distance)
+      answerMin.title = Number(answerMin.title)
+      answerMax.title = Number(answerMax.title)
 
-        const percentage_title = 100 * (professor.title_distance - answerMin.title) / (answerMax.title - answerMin.title)
-        const percentage_desc = 100 * (professor.description_distance - answerMin.description) / (answerMax.description - answerMin.description)
+      const percentage_title = 100 * (professor.title_distance - answerMin.title) / (answerMax.title - answerMin.title)
+      const percentage_desc = 100 * (professor.description_distance - answerMin.description) / (answerMax.description - answerMin.description)
 
-        professor.title_distance = 100 - percentage_title.toFixed(2)
-        professor.description_distance = 100 - percentage_desc.toFixed(2)
+      professor.title_distance = 100 - percentage_title.toFixed(2)
+      professor.description_distance = 100 - percentage_desc.toFixed(2)
 
-        professor.mean = 100 - ((percentage_title + percentage_desc)/2).toFixed(2)
-        professor.mean = Number(professor.mean)
+      professor.mean = 100 - ((percentage_title + percentage_desc) / 2).toFixed(2)
+      professor.mean = Number(professor.mean)
     }
-}
+  }
+
+  const resetTitleInput = () => {
+    setTitle('')
+  }
+
+  const resetDescInput = () => {
+    setDescription('')
+  }
 
   // link do icone https://icons8.com.br/icon/nWljDzRch4Az/find
 
   return (
-    <Container maxWidth="sm">
+    <Container maxWidth="md">
 
-      <PresentationCard/>
+      <PresentationCard />
 
       <Card sx={{ marginTop: '1rem', marginBottom: '1rem' }}>
         <CardContent>
           <Grid container spacing={2}>
             <Grid item xs={12}>
-              <TextField fullWidth disabled={running ? true : false} label='Titulo' value={title} required onChange={e => setTitle(e.target.value)}></TextField>
+              <TextField fullWidth disabled={running ? true : false} label='Titulo' value={title} required onChange={e => setTitle(e.target.value)} InputProps={{
+                endAdornment:
+                  <InputAdornment position="end">
+                    <IconButton onClick={resetTitleInput}>
+                      <HighlightOffIcon />
+                    </IconButton>
+                  </InputAdornment>,
+              }}>
+              </TextField>
             </Grid>
             <Grid item xs={12}>
-              <TextField fullWidth disabled={running ? true : false} label='Descrição' value={description} required multiline minRows={5} onChange={e => setDescription(e.target.value)}></TextField>
+              <TextField fullWidth disabled={running ? true : false} label='Descrição' value={description} required multiline minRows={5} onChange={e => setDescription(e.target.value)} InputProps={{
+                endAdornment:
+                  <InputAdornment position="end">
+                    <IconButton onClick={resetDescInput}>
+                      <HighlightOffIcon />
+                    </IconButton>
+                  </InputAdornment>,
+              }} >
+
+              </TextField>
             </Grid>
             <Grid item xs={12}>
               <FormGroup>
@@ -185,35 +209,43 @@ function App() {
             }
           </Button>
         </CardActions>
-
       </Card>
 
-        {
-          answer ?
-          <InfoAlert info={information} info2={information2}></InfoAlert>
+      {
+        running ?
+          <Card sx={{ marginTop: '1rem', marginBottom: '1rem' }}>
+            <Alert severity="warning">Isso pode demorar um pouco, tenha paciência e não feche a página</Alert>
+          </Card>
           :
-          null          
-        }
+          null
+      }
 
-        {
-          answer ?
+      {
+        answer ?
+          <InfoAlert info={information} info2={information2} info3={information3}></InfoAlert>
+          :
+          null
+      }
+
+      {
+        answer ?
           <TheDataGrid data={answer} maxValues={answerMax} />
           :
-          null          
-        }
+          null
+      }
 
       <TheFooter></TheFooter>
 
       <Snackbar open={openError} autoHideDuration={4000} onClose={handleClose}
         anchorOrigin={{ vertical: "top", horizontal: "right" }} key="error">
-        <Alert severity='error' sx={{ width: '100%' }} onClose={handleClose}>
+        <Alert severity='error' sx={{ width: '100%' }} elevation={6} variant="filled" onClose={handleClose}>
           {errorMessage}
         </Alert>
       </Snackbar>
 
       <Snackbar open={openSuccess} autoHideDuration={4000} onClose={handleClose}
         anchorOrigin={{ vertical: "top", horizontal: "right" }} key="success">
-        <Alert severity='success' sx={{ width: '100%' }} onClose={handleClose}>
+        <Alert severity='success' sx={{ width: '100%' }} elevation={6} variant="filled" onClose={handleClose}>
           {successMessage}
         </Alert>
       </Snackbar>

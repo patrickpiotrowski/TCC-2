@@ -235,7 +235,7 @@ def calculate(title, description, id):
             "id": 34,
             "name": "Rogério Santos Pozza",
             "email": "pozza@utfpr.edu.br",
-            "area": "Redes Corporais / Redes de Sensores sem Fio / Redes Ad Hoc / IoT Sistemas Distribuídos Desenvolvimento de Software (arduino/raspberry/web)",
+            "area": "Redes Corporais, Redes de Sensores sem Fio, Redes Ad Hoc, IoT Sistemas Distribuídos Desenvolvimento de Software (arduino, raspberry, web)",
         },
         {
             "id": 35,
@@ -284,16 +284,16 @@ def calculate(title, description, id):
 
     # print(f"{os.getcwd()}/model/w2v.vectors.kv")
 
-    fname = get_tmpfile(f"{os.getcwd()}/model/w2v.vectors.kv")
-    w2v = KeyedVectors.load(fname, mmap="r")
+    #fname = get_tmpfile(f"{os.getcwd()}/model/w2v.vectors.kv")
+    #w2v = KeyedVectors.load(fname, mmap="r")
 
     # usp cbow 1000
     # fname = get_tmpfile(f"{os.getcwd()}/model/cbow_s1000.txt")
     # w2v = KeyedVectors.load_word2vec_format(fname)
 
     # usp cbow 300
-    # fname = get_tmpfile(f"{os.getcwd()}/model/cbow_s300.txt")
-    # w2v = KeyedVectors.load_word2vec_format(fname)
+    fname = get_tmpfile(f"{os.getcwd()}/model/cbow_s300.txt")
+    w2v = KeyedVectors.load_word2vec_format(fname)
 
     # Google's dataset pre trained model
     # w2v = api.load('word2vec-google-news-300')

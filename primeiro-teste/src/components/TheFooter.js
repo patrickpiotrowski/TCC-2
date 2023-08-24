@@ -19,7 +19,7 @@ function Footer() {
       }}
       
     >
-      <Container maxWidth="sm" sx={{padding: '1rem'}}>
+      <Container maxWidth="md" sx={{padding: '1rem'}}>
         <Grid container spacing={5}>
           <Grid item xs={12} sm={6} align="left">
             <Typography variant="h6" color="text.primary" gutterBottom>
