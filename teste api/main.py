@@ -6,8 +6,7 @@ from pydantic import BaseModel
 
 from run_wmd import calculate
 
-# Lista para armazenar clientes WebSocket conectados
-websocket_clients = []
+# uvicorn main:app --reload
 
 items = []
 

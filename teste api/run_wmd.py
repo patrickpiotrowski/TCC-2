@@ -1,4 +1,7 @@
 def calculate(title, description, id):
+
+    import json
+
     # Initialize logging.
     import logging
 
@@ -294,6 +297,7 @@ def calculate(title, description, id):
     # usp cbow 300
     fname = get_tmpfile(f"{os.getcwd()}/model/cbow_s300.txt")
     w2v = KeyedVectors.load_word2vec_format(fname)
+    modelUsed = "cbow_s300"
 
     # Google's dataset pre trained model
     # w2v = api.load('word2vec-google-news-300')
@@ -343,7 +347,6 @@ def calculate(title, description, id):
             # adding the distances to the professor object
             professor["title_distance"] = str(round(title_distance, 5))
             professor["description_distance"] = str(round(description_distance, 5))
-            professor["mean"] = 0
 
             print(
                 f"\n\n Title distance {counter} = {title_distance:.4f} \n Desc distance {counter} = {description_distance:.4f}\n"
@@ -359,5 +362,16 @@ def calculate(title, description, id):
     print("Min distances: ")
     print(minDistances)
 
-    # returning the data
+    array = professors.copy()
+    array.insert(0, {
+        "model used": modelUsed,
+        "title": title,
+        "description": description,
+        "maxDistance": maxDistances,
+        "minDistance": minDistances
+    })
+
+    with open(f"data/{id}-{title}-results.json", "a") as arquivo_json:
+        json.dump(array, arquivo_json)
+
     return professors, maxDistances, minDistances
