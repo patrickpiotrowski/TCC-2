@@ -266,6 +266,12 @@ def calculate(title, description, id):
         },
     ]
 
+
+    import time
+    import timeit
+
+    start = timeit.default_timer()
+
     processed_title = preprocess(title)
     processed_description = preprocess(description)
 
@@ -290,14 +296,12 @@ def calculate(title, description, id):
     #fname = get_tmpfile(f"{os.getcwd()}/model/w2v.vectors.kv")
     #w2v = KeyedVectors.load(fname, mmap="r")
 
-    # usp cbow 1000
-    # fname = get_tmpfile(f"{os.getcwd()}/model/cbow_s1000.txt")
-    # w2v = KeyedVectors.load_word2vec_format(fname)
+    modelsOptions = ["cbow_s300", "cbow_s100", "skip_s100"]
+    modelUsed = modelsOptions[0]
 
-    # usp cbow 300
-    fname = get_tmpfile(f"{os.getcwd()}/model/cbow_s300.txt")
+    fname = get_tmpfile(f"{os.getcwd()}/model/{modelUsed}.txt")
     w2v = KeyedVectors.load_word2vec_format(fname)
-    modelUsed = "cbow_s300"
+    
 
     # Google's dataset pre trained model
     # w2v = api.load('word2vec-google-news-300')
@@ -310,8 +314,6 @@ def calculate(title, description, id):
     #     print()
 
     ###############################################################################
-    # So let's compute WMD using the ``wmdistance`` method.
-    #
 
     counter = 0
     bigger_distance_title = 0
@@ -362,16 +364,25 @@ def calculate(title, description, id):
     print("Min distances: ")
     print(minDistances)
 
+    finish = timeit.default_timer()
+
+    timeTaken = {
+        "timeTaken": finish - start
+    }
+
     array = professors.copy()
     array.insert(0, {
         "model used": modelUsed,
         "title": title,
         "description": description,
+        "timeTaken": timeTaken,
         "maxDistance": maxDistances,
         "minDistance": minDistances
     })
 
+    print("Time taken: %f seconds" % timeTaken["timeTaken"])
+
     with open(f"data/{id}-{title}-results.json", "a") as arquivo_json:
         json.dump(array, arquivo_json)
 
-    return professors, maxDistances, minDistances
+    return professors, maxDistances, minDistances, timeTaken

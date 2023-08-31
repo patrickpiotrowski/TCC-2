@@ -35,8 +35,8 @@ function App() {
   const [answer, setAnswer] = useState()
   const [answerMax, setAnswerMax] = useState()
   const [answerMin, setAnswerMin] = useState()
-  const [title, setTitle] = useState("Inteligência artificial em ferramentas jurídicas")
-  const [description, setDescription] = useState("Estudo de caso do uso das IAs no sistema jurídico brasileiro.")
+  const [title, setTitle] = useState("Desenvolvimento de um Sistema de Reconhecimento de Gestos para Controle de Dispositivos Eletrônicos")
+  const [description, setDescription] = useState("Este trabalho de conclusão de curso em Engenharia de Computação explora o desenvolvimento de um sistema inovador de reconhecimento de gestos que permite aos usuários controlar dispositivos eletrônicos, como smartphones e computadores, por meio de gestos corporais. O estudo abrange desde a concepção e implementação do sistema até sua avaliação de desempenho e potenciais aplicações em diversas áreas, destacando-se como uma solução promissora para melhorar a interação homem-máquina e tornar a tecnologia mais acessível e intuitiva")
   const [openError, setOpenError] = useState(false)
   const [openSuccess, setOpenSuccess] = useState(false)
   const [errorMessage, setErrorMessage] = useState("")
@@ -82,7 +82,10 @@ function App() {
         setAnswerMax(response.data[1])
         setAnswerMin(response.data[2])
         resetInputs()
-        setSuccessMessage("Tudo certo!")
+        const timeTaken = response.data[3].timeTaken
+        const min = Math.floor(timeTaken / 60)
+        const sec = Math.floor(timeTaken % 60)
+        setSuccessMessage(`Tudo certo! Levou ${min} minutos e ${sec} segundos`)
         setOpenSuccess(true)
         setRunning(false)
       })
@@ -222,14 +225,10 @@ function App() {
 
       {
         answer ?
-          <InfoAlert info={information} info2={information2} info3={information3}></InfoAlert>
-          :
-          null
-      }
-
-      {
-        answer ?
-          <TheDataGrid data={answer} maxValues={answerMax} />
+          <>
+            <InfoAlert info={information} info2={information2} info3={information3}></InfoAlert>
+            <TheDataGrid data={answer} maxValues={answerMax} />
+          </>
           :
           null
       }
@@ -243,7 +242,7 @@ function App() {
         </Alert>
       </Snackbar>
 
-      <Snackbar open={openSuccess} autoHideDuration={4000} onClose={handleClose}
+      <Snackbar open={openSuccess} autoHideDuration={10000} onClose={handleClose}
         anchorOrigin={{ vertical: "top", horizontal: "right" }} key="success">
         <Alert severity='success' sx={{ width: '100%' }} elevation={6} variant="filled" onClose={handleClose}>
           {successMessage}
