@@ -1,8 +1,12 @@
 import avatar from '../findIconFull.png';
+import avatarDark from '../findIconFullDark.png';
 import UTFLogo from '../image.png';
 import Card from '@mui/material/Card';
+import UTFLogoDark from '../imageDark.png';
 import { ImageList, ImageListItem, Stack } from '@mui/material';
 import { useState, useEffect } from 'react';
+
+// link do icone https://icons8.com.br/icon/nWljDzRch4Az/find
 
 function PresentationCard (darkmode){
   const [dark, setDark] = useState(darkmode.darkMode)
@@ -16,10 +20,10 @@ function PresentationCard (darkmode){
         <Stack alignItems={'center'} direction="row" justifyContent={'center'} spacing={2}>
           <ImageList cols={2} sx={{margin: '1rem'}}>
             <ImageListItem>
-              <img alt='' src={avatar} style={{width: '150px', height: '140px'}}></img>
+              <img alt='' src={!dark ? avatarDark : avatar} style={{width: '150px', height: '140px'}}></img>
             </ImageListItem>
             <ImageListItem>
-              <img alt='' src={UTFLogo} style={{width: '350px', height: '100px'}}></img>
+              <img alt='' src={!dark ? UTFLogoDark : UTFLogo} style={{width: '350px', height: '100px'}}></img>
             </ImageListItem>
           </ImageList>
         </Stack>

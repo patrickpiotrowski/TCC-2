@@ -215,7 +215,9 @@ function App() {
     for (let i in modelsArray) {
       let option = modelsArray[i]
       let dimension = option.split('s')[1]
-      optionsArray.push(<MenuItem key={i} value={option}>CBOW com {dimension} dimensões</MenuItem>)
+      let name = option.split('_')[0]
+      name = name.toUpperCase()
+      optionsArray.push(<MenuItem key={i} value={option}>{name} com {dimension} dimensões</MenuItem>)
     }
     return optionsArray
   }
