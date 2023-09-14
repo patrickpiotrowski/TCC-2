@@ -1,4 +1,4 @@
-def calculate(title, description, id):
+def calculate(title, description, id, model):
 
     import json
 
@@ -296,8 +296,7 @@ def calculate(title, description, id):
     #fname = get_tmpfile(f"{os.getcwd()}/model/w2v.vectors.kv")
     #w2v = KeyedVectors.load(fname, mmap="r")
 
-    modelOptions = ["cbow_s300", "cbow_s100", "skip_s100"]
-    modelUsed = modelOptions[0]
+    modelUsed = model
 
     fname = get_tmpfile(f"{os.getcwd()}/model/{modelUsed}.txt")
     w2v = KeyedVectors.load_word2vec_format(fname)
