@@ -6,8 +6,6 @@ from pydantic import BaseModel
 
 from run_wmd import calculate
 
-# uvicorn main:app --reload
-
 items = []
 
 def search (item_id):

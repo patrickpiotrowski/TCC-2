@@ -32,7 +32,7 @@ function InfoAlert({info, info2, info3}){
                     <CardContent>
                         <h1 style={{ margin: '1rem', textAlign: 'center', color: "#303030" }}>As fórmulas consistem em:</h1>
                         <h2>% do título</h2>
-                        <h4 style={{ margin: '1rem', textAlign: 'justify', textJustify: 'none', color: "#505050" }}>100 - (100 * (DISTANCIA_TITULO_PROF - MENOR_TITULO_DISTANCIA_PROFS) / (MAIOR_DISTANCIA_TITULO_PROFS - MENOR_DISTANCIA_TITULO_PROFS))</h4>
+                        <h4 style={{ margin: '1rem', textAlign: 'justify', textJustify: 'none', color: "#505050" }}>100 - (100 * (DISTANCIA_TITULO_PROF - MENOR_DISTANCIA_TITULO_PROFS) / (MAIOR_DISTANCIA_TITULO_PROFS - MENOR_DISTANCIA_TITULO_PROFS))</h4>
                         <h2>% da descrição</h2>
                         <h4 style={{ margin: '1rem', textAlign: 'justify', textJustify: 'initial', color: "#505050" }}>100 - (100 * (DISTANCIA_DESC_PROF - MENOR_DISTANCIA_DESC_PROFS) / (MAIOR_DISTANCIA_DESC_PROFS - MENOR_DISTANCIA_DESC_PROFS))</h4>
                         <h2>% da média</h2>

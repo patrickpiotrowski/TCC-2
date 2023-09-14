@@ -296,8 +296,8 @@ def calculate(title, description, id):
     #fname = get_tmpfile(f"{os.getcwd()}/model/w2v.vectors.kv")
     #w2v = KeyedVectors.load(fname, mmap="r")
 
-    modelsOptions = ["cbow_s300", "cbow_s100", "skip_s100"]
-    modelUsed = modelsOptions[0]
+    modelOptions = ["cbow_s300", "cbow_s100", "skip_s100"]
+    modelUsed = modelOptions[1]
 
     fname = get_tmpfile(f"{os.getcwd()}/model/{modelUsed}.txt")
     w2v = KeyedVectors.load_word2vec_format(fname)

@@ -3,6 +3,7 @@ npm install
 npm start
 
 cd 'teste api'
+sudo apt install uvicorn
 sudo apt install python
 sudo apt install python-pip
 pip install --upgrade gensim 
