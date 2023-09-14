@@ -297,7 +297,7 @@ def calculate(title, description, id):
     #w2v = KeyedVectors.load(fname, mmap="r")
 
     modelOptions = ["cbow_s300", "cbow_s100", "skip_s100"]
-    modelUsed = modelOptions[1]
+    modelUsed = modelOptions[0]
 
     fname = get_tmpfile(f"{os.getcwd()}/model/{modelUsed}.txt")
     w2v = KeyedVectors.load_word2vec_format(fname)
@@ -372,7 +372,9 @@ def calculate(title, description, id):
 
     array = professors.copy()
     array.insert(0, {
+        "id": id,
         "model used": modelUsed,
+        "timeTaken": timeTaken["timeTaken"],
         "title": title,
         "description": description,
         "timeTaken": timeTaken,

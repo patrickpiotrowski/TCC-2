@@ -41,6 +41,7 @@ function App() {
   const [openSuccess, setOpenSuccess] = useState(false)
   const [errorMessage, setErrorMessage] = useState("")
   const [successMessage, setSuccessMessage] = useState("")
+  const [timeTaken, setTimeTaken] = useState()
   const [checked, setChecked] = useState(false)
   const [running, setRunning] = useState(false)
 
@@ -76,6 +77,8 @@ function App() {
       "description": description
     }
     setRunning(true)
+    setTimeTaken()
+    setAnswer()
     axios.post("http://127.0.0.1:8000/items/{item.id}", obj)
       .then(function (response) {
         setAnswer(response.data[0])
@@ -85,7 +88,8 @@ function App() {
         const timeTaken = response.data[3].timeTaken
         const min = Math.floor(timeTaken / 60)
         const sec = Math.floor(timeTaken % 60)
-        setSuccessMessage(`Tudo certo! Levou ${min} minutos e ${sec} segundos`)
+        setSuccessMessage(`Tudo certo!`)
+        setTimeTaken(`Tempo decorrido: ${min} ${min > 1 ? 'minutos' : 'minuto'} e ${sec} ${sec > 1 ? 'segundos' : 'segundo'}`)
         setOpenSuccess(true)
         setRunning(false)
       })
@@ -203,6 +207,12 @@ function App() {
         </CardContent>
 
         <CardActions sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-end', marginRight: '0.5rem' }}>
+          {
+            answer ?
+              <p style={{color: 'rgb(255, 0 ,0)', margin: '10px'}}>{timeTaken}</p>
+              :
+              null
+          }
           <Button onClick={validateInputs} disabled={running ? true : false} endIcon={handleIcon()} {...disableButton} variant='contained'>
             {
               running ?
@@ -242,7 +252,7 @@ function App() {
         </Alert>
       </Snackbar>
 
-      <Snackbar open={openSuccess} autoHideDuration={10000} onClose={handleClose}
+      <Snackbar open={openSuccess} autoHideDuration={4000} onClose={handleClose}
         anchorOrigin={{ vertical: "top", horizontal: "right" }} key="success">
         <Alert severity='success' sx={{ width: '100%' }} elevation={6} variant="filled" onClose={handleClose}>
           {successMessage}
