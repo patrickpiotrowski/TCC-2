@@ -1,3 +1,5 @@
+# script para rodar automaticamente os testes e gerar os arquivos json
+
 from run_wmd import calculate
 import os
 import json
