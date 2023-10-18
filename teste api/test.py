@@ -13,9 +13,9 @@ for json_data in dataArray:
     # Use a função json.load() para carregar o conteúdo do arquivo em uma estrutura de dados Python
     data = json.load(json_file)
 
-  resultArray = []
 
   for model in modelArray:
+    resultArray = []
     for work in data:
       work['results'] = calculate(work['titulo'], work['resumo'], int(datetime.datetime.now().timestamp()), model)
       resultArray.append(work)

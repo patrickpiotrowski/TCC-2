@@ -44,7 +44,7 @@ def calculate(title, description, id, model):
         },
         {
             "id": 2,
-            "name": "Adriano Rivolli Da Silva",
+            "name": "Adriano Rivolli",
             "email": "rivolli@utfpr.edu.br",
             "area": "Aprendizado de Máquina, Inteligência Artificial, Meta-aprendizado, Ferramentas jurídicas, Ferramentas para o mercado financeiro de ações, Sistemas de informação interativo e educativos",
         },
@@ -68,7 +68,7 @@ def calculate(title, description, id, model):
         },
         {
             "id": 6,
-            "name": "Alexandre Rossi Pascoal",
+            "name": "Alexandre Rossi Paschoal",
             "email": "paschoal@utfpr.edu.br ",
             "area": "Bioinformática, Jogos, Banco de Dados, Aprendizado de Máquina, Desenvolvimento Web, Ferramentas",
         },
@@ -92,7 +92,7 @@ def calculate(title, description, id, model):
         },
         {
             "id": 10,
-            "name": "Antônio Carlos Fernandes da Silva",
+            "name": "Antonio Carlos Fernandes da Silva",
             "email": "antonio@utfpr.edu.br",
             "area": "Gerenciamento e Projeto de Redes, Arquiteturas de Hardware, Desenvolvimento hardware / Software (arduino, raspberry, UDO, Etc..), Desenvolvimento com FPGAs, Compilação para Hardware",
         },
@@ -122,7 +122,7 @@ def calculate(title, description, id, model):
         },
         {
             "id": 15,
-            "name": "Eduardo Cotrin Texeira",
+            "name": "Eduardo Cotrin Teixeira",
             "email": "cotrin@utfpr.edu.br",
             "area": "Banco de Dados, e-Science (Big Data), Desenvolvimento de Software , Ferramentas Pedagógicas",
         },
@@ -140,7 +140,7 @@ def calculate(title, description, id, model):
         },
         {
             "id": 18,
-            "name": "Fábio Fernandes da R. Vicente",
+            "name": "Fábio Fernandes da Rocha Vicente",
             "email": "fabiofernandes@utfpr.edu.br",
             "area": "Bioinformática Reconhecimento de Padrões",
         },
@@ -218,7 +218,7 @@ def calculate(title, description, id, model):
         },
         {
             "id": 31,
-            "name": "Natassya Barlate Floro Da Silva",
+            "name": "Natássya Barlate Floro da Silva",
             "email": "natassyasilva@utfpr.edu.br",
             "area": "Redes de Computadores Veículos Autônomos Sistemas Embarcados",
         },

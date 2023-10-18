@@ -67,7 +67,7 @@
   {
     "titulo": "DESENVOLVIMENTO DE UM BRAÇO ROBÓTICO UTILIZANDO MICROCONTROLADOR ESP8266 CONTROLADO VIA WI-FI",
     "resumo": "Os robôs industriais são amplamente empregados por se adaptarem as necessidades especı́ficas das tarefas a serem realizadas, por meio de movimentos programados e o uso de garras e ferramentas selecionadas. O investimento crescente em robôs industriais é impulsionado pela demanda por sistemas altamente automatizados e dinâmicos na indústria. Além de substituir os humanos em atividades perigosas e monótonas, os robôs também reduzem custos e melhoram a qualidade dos produtos fabricados. Um braço robótico é um dispositivo programável que imita as funções de um braço humano, proporcionando precisão, repetibilidade e força. Os microcontroladores desempenham um papel fundamental no controle e processamento de dados na robótica, sendo essenciais para o movimento e interação dos robôs. Este trabalho propõe o desenvolvimento de controle de um braço robótico via Wi-Fi, utilizando um microcontrolador, através de uma interface web. Visando a aplicação de robôs cooperativos na indústria e a manipulação de objetos por comandos do operador. braço robótico, microcontrolador ESP8266, robótica industrial, servomotores.",
-    "orientador": "Antônio Carlos Fernandes da Silva"
+    "orientador": "Antonio Carlos Fernandes da Silva"
   },
   {
     "titulo": "ANÁLISES DE ARQUITETURAS DE DADOS PARA PROJETOS DE BIG DATA",

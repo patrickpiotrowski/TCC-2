@@ -2,7 +2,7 @@
   {
     "titulo": "Modelo de alto desempenho para portais de notı́cias através do uso de Docker e múltiplos bancos de dados",
     "resumo": "O número de pessoas conectadas à internet cresce a cada ano, por consequência o uso de mı́dias online também aumenta. Com isso os sistemas necessários para suportar o crescente número de usuários fica cada vez mais custoso e muitas vezes acaba não sendo suficiente para picos inesperados de acesso. Esse trabalho propõe um modelo de arquitetura a ser seguido que tem como finalidade aumentar o desempenho e reduzir o custo financeiro de sistemas que possuem grande demanda, tornando-os mais resilientes e escaláveis. Sistemas Distribuı́dos. Arquitetura de Software. Padrões de Design.",
-    "orientador": "Fabrı́cio Martins Lopes"
+    "orientador": "Fabrício Martins Lopes"
   },
   {
     "titulo": "Análise de comportamento do algoritmo criptográfico AES em sistemas embarcados",
@@ -260,7 +260,7 @@
     "orientador": "Érica Ferreira de Souza"
   },
   {
-    "titulo": "NFERÊNCIA DE REDES GÊNICAS: Validação de Inferência da Rede para a Bactéria Escherichia Coli",
+    "titulo": "INFERÊNCIA DE REDES GÊNICAS: Validação de Inferência da Rede para a Bactéria Escherichia Coli",
     "resumo": "Escherichia Coli é uma bactéria com uma notável capacidade de causar infecções. Surtos de doenças causadas por ela podem afetar muitos indivı́duos. Compreender como seus genes se relacionam pode ajudar no tratamento e prevenção de infecções. Neste contexto, a inferência de redes gênicas pode ser utilizada para recuperar a rede da E. coli. No entanto, há um problema ao se inferir redes gênicas: a quantidade de variáveis é muito grande em relação a quantidade de amostras. Uma possı́vel solução é adotar dados biológicos já conhecidos. Assim, este trabalho propõem validar a inferência da rede da E. coli com o uso dados biológicos já existentes. Desta forma pode-se analisar se o uso de tais dados podem ajudar no processo de inferência. Inferência de redes gênicas. Escherichia Coli. Validação.",
     "orientador": "Fabrício Martins Lopes"
   }
