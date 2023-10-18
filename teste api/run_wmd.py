@@ -388,6 +388,8 @@ def calculate(title, description, id, model):
 
     return professors, maxDistances, minDistances, timeTaken
 
+    # !!! if testing, use this part and comment the above return !!!!
+
     # def calculate_mean(object):
     #     title_dist = float(object["title_distance"])
     #     description_dist = float(object["description_distance"])
