@@ -5,7 +5,7 @@ import os
 import json
 import datetime
 
-dataArray = ['2023', '2022']
+dataArray = ['2022', '2023']
 modelArray = ['cbow_s50', 'cbow_s100','cbow_s300']
 
 for json_data in dataArray:
@@ -20,5 +20,5 @@ for json_data in dataArray:
       work['results'] = calculate(work['titulo'], work['resumo'], int(datetime.datetime.now().timestamp()), model)
       resultArray.append(work)
 
-    with open(f"test_results/{json_data}_{model}.json", "a") as arquivo_json:
+    with open(f"test_2_results/{json_data}_{model}.json", "a") as arquivo_json:
         json.dump(resultArray, arquivo_json)

@@ -127,17 +127,12 @@
   {
     "titulo": "PROTÓTIPO DE FERRAMENTA MODULAR INTERATIVA PARA ENSINO E APRENDIZADO DE ESTRUTURAS DE DADOS",
     "resumo": "O estudo de Estruturas de Dados e algoritmos é importante para a formação na área da Ciência de Computação. Contudo, existem casos onde essa disciplina se torna um obstáculo para aqueles que a estudam, e apenas estudos teóricos não são suficientes para fazer com que o entendimento seja satisfatório. Ferramentas interativas podem ser um facilitador para aqueles que possuem dificuldades na compreensão do conteúdo. Diante disso, o presente trabalho visa desenvolver uma arquitetura de software para uma ferramenta de ensino e aprendizado de Estruturas de Dados que seja modular, e possibilite a adição de novas estruturas e recursos. Para alcançar esse objetivo, no trabalho foi implementado uma aplicação web seguindo os padrões da Arquitetura Limpa. Além disso, a componentização foi empregada por meio de biblioteca React, que possibilita a construção de componentes independentes entre si. Tudo isso, somado a uma abordagem incremental de desenvolvimento de software, tornou possı́vel que o programa seja completamente modular. Por fim, foi implementado um protótipo funcional de uma plataforma para visualização de Estruturas de Dados que possibilita executar seus algoritmos alterando os parâmetros de entrada. Isso validou a implementação da arquitetura escolhida, comprovando sua modularidade. Estruturas de Dados. Ferramenta de ensino. Arquitetura de Software. Aplicação Web. Sistema Modular.",
-    "orientador": "Adriano Rivolli da Silva"
+    "orientador": "Adriano Rivolli"
   },
   {
     "titulo": "PRINCIPAIS ATIVIDADES DO PRODUCT OWNER",
     "resumo": "O objetivo do gerenciamento de projetos é garantir o cumprimento do escopo, dos prazos, dos custos e da entrega dos produtos com a qualidade esperada pelo cliente. Existem diversas metodologias e frameworks que podem ser utilizados para o gerenciamento. O Scrum é um framework de gerenciamento ágil utilizado para melhorar a produtividade das equipes de desenvolvimento. Dentro do Scrum existe o papel do Product Owner, a pessoa responsável por agir como elo entre o cliente, a equipe de desenvolvimento e o produto em si. O documento detalha as principais funções do dia-a-dia de um Product Owner na empresa Luby Software. Proprietário do Produto. Gestão de Projetos. Scrum.",
     "orientador": "Flávia Belintani Blum Haddad"
-  },
-  {
-    "titulo": "IMPLEMENTAÇÃO DE UMA PLATAFORMA PARA ANÁLISE DAS INFORMAÇÕES DE UMA ESTAÇÃO METEOROLÓGICA",
-    "resumo": "A meteorologia tem se tornado cada vez mais importante ao decorrer dos anos. Quando se fala em meteorologia, a primeira relação que se faz é com a previsão do tempo, se vai chover ou fazer sol, porém as atividades vão muito mais além e abrangem outros setores, como o energético, de recursos hídricos, agrícola, de aviação, saúde e defesa civil. Este trabalho descreve a meteorologia em teoria, além do desenvolvimento de uma aplicação para analisar os dados recebidos de uma estação meteorológica. Esta aplicação é um site, e por meio dele é possível pesquisar por uma cidade qualquer e receber os dados meteorológicos daquele local. Para a implementação da aplicação, foi utilizado o ambiente de desenvolvimento Visual Studio Code e o serviço de hospedagem de projetos GitHub, servindo como um repositório remoto. A aplicação foi feita em Angular, que é um framework JavaScript utilizado para desenvolvimento. Estação meteorológica. Previsão de Tempo. Angular.",
-    "orientador": "Edson Luis Bassetto"
   },
   {
     "titulo": "MEIO DE PAGAMENTO POR NFC PARA CRIPTOMOEDAS",
