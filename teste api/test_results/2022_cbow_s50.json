@@ -2,7 +2,7 @@
   {
     "titulo": "Modelo de alto desempenho para portais de not\u0131\u0301cias atrav\u00e9s do uso de Docker e m\u00faltiplos bancos de dados",
     "resumo": "O n\u00famero de pessoas conectadas \u00e0 internet cresce a cada ano, por consequ\u00eancia o uso de m\u0131\u0301dias online tamb\u00e9m aumenta. Com isso os sistemas necess\u00e1rios para suportar o crescente n\u00famero de usu\u00e1rios fica cada vez mais custoso e muitas vezes acaba n\u00e3o sendo suficiente para picos inesperados de acesso. Esse trabalho prop\u00f5e um modelo de arquitetura a ser seguido que tem como finalidade aumentar o desempenho e reduzir o custo financeiro de sistemas que possuem grande demanda, tornando-os mais resilientes e escal\u00e1veis. Sistemas Distribu\u0131\u0301dos. Arquitetura de Software. Padr\u00f5es de Design.",
-    "orientador": "Fabr\u0131\u0301cio Martins Lopes",
+    "orientador": "Fabr\u00edcio Martins Lopes",
     "results": [
       {
         "name": "Francisco Pereira Junior",
@@ -17,13 +17,13 @@
         "media": 0.99857
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.93265",
         "description_distance": "1.06892",
         "media": 1.000785
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "0.9273",
         "description_distance": "1.08022",
         "media": 1.00376
@@ -53,7 +53,7 @@
         "media": 1.0231599999999998
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.066",
         "description_distance": "0.99254",
         "media": 1.02927
@@ -71,7 +71,7 @@
         "media": 1.03405
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "0.9558",
         "description_distance": "1.11949",
         "media": 1.037645
@@ -119,7 +119,7 @@
         "media": 1.07361
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.02999",
         "description_distance": "1.11858",
         "media": 1.074285
@@ -131,7 +131,7 @@
         "media": 1.0845250000000002
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.03843",
         "description_distance": "1.13106",
         "media": 1.0847449999999998
@@ -246,7 +246,7 @@
     "orientador": "Nat\u00e1ssya Barlate Floro da Silva",
     "results": [
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "0.95731",
         "description_distance": "0.94827",
         "media": 0.95279
@@ -258,7 +258,7 @@
         "media": 0.96688
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "0.9089",
         "description_distance": "1.03245",
         "media": 0.9706750000000001
@@ -300,7 +300,7 @@
         "media": 1.0015749999999999
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.99402",
         "description_distance": "1.0126",
         "media": 1.00331
@@ -348,7 +348,7 @@
         "media": 1.0379
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.03942",
         "description_distance": "1.05172",
         "media": 1.04557
@@ -366,7 +366,7 @@
         "media": 1.04794
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.05409",
         "description_distance": "1.04226",
         "media": 1.048175
@@ -390,7 +390,7 @@
         "media": 1.055185
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.01264",
         "description_distance": "1.09966",
         "media": 1.0561500000000001
@@ -487,7 +487,7 @@
     "orientador": "Eduardo Filgueiras Damasceno",
     "results": [
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "1.00718",
         "description_distance": "0.9824",
         "media": 0.9947900000000001
@@ -529,7 +529,7 @@
         "media": 1.0716899999999998
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.0717",
         "description_distance": "1.08679",
         "media": 1.079245
@@ -541,7 +541,7 @@
         "media": 1.081995
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.04574",
         "description_distance": "1.11933",
         "media": 1.082535
@@ -607,7 +607,7 @@
         "media": 1.1057899999999998
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.10359",
         "description_distance": "1.11197",
         "media": 1.10778
@@ -631,7 +631,7 @@
         "media": 1.1232
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.1055",
         "description_distance": "1.14096",
         "media": 1.12323
@@ -661,7 +661,7 @@
         "media": 1.1275
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.14874",
         "description_distance": "1.11422",
         "media": 1.13148
@@ -734,7 +734,7 @@
         "media": 0.850105
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "0.75241",
         "description_distance": "0.95086",
         "media": 0.851635
@@ -770,7 +770,7 @@
         "media": 0.8904
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.83641",
         "description_distance": "0.95512",
         "media": 0.8957649999999999
@@ -782,7 +782,7 @@
         "media": 0.924105
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "0.87198",
         "description_distance": "0.992",
         "media": 0.93199
@@ -800,7 +800,7 @@
         "media": 0.9345699999999999
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "0.86318",
         "description_distance": "1.01193",
         "media": 0.9375549999999999
@@ -866,7 +866,7 @@
         "media": 0.982335
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "0.88662",
         "description_distance": "1.07972",
         "media": 0.98317
@@ -932,7 +932,7 @@
         "media": 1.034955
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "0.96989",
         "description_distance": "1.10042",
         "media": 1.035155
@@ -1023,7 +1023,7 @@
         "media": 1.0364149999999999
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.04478",
         "description_distance": "1.03178",
         "media": 1.0382799999999999
@@ -1035,7 +1035,7 @@
         "media": 1.0417399999999999
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "1.03005",
         "description_distance": "1.05381",
         "media": 1.0419299999999998
@@ -1089,7 +1089,7 @@
         "media": 1.07423
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.01867",
         "description_distance": "1.13266",
         "media": 1.0756649999999999
@@ -1137,13 +1137,13 @@
         "media": 1.1045
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.10303",
         "description_distance": "1.12795",
         "media": 1.1154899999999999
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.14239",
         "description_distance": "1.1114",
         "media": 1.126895
@@ -1179,7 +1179,7 @@
         "media": 1.16137
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.15041",
         "description_distance": "1.19972",
         "media": 1.175065
@@ -1252,7 +1252,7 @@
         "media": 1.006955
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.99533",
         "description_distance": "1.02282",
         "media": 1.0090750000000002
@@ -1270,13 +1270,13 @@
         "media": 1.0166849999999998
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.00233",
         "description_distance": "1.03598",
         "media": 1.019155
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.0519",
         "description_distance": "0.99873",
         "media": 1.025315
@@ -1348,7 +1348,7 @@
         "media": 1.0622449999999999
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.05006",
         "description_distance": "1.07802",
         "media": 1.0640399999999999
@@ -1384,7 +1384,7 @@
         "media": 1.091275
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.03759",
         "description_distance": "1.14887",
         "media": 1.0932300000000001
@@ -1438,7 +1438,7 @@
         "media": 1.14275
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.14554",
         "description_distance": "1.19117",
         "media": 1.168355
@@ -1451,19 +1451,19 @@
     "orientador": "Henrique Yoshikazu Shishido",
     "results": [
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "0.90844",
         "description_distance": "1.0293",
         "media": 0.9688700000000001
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.95629",
         "description_distance": "0.98265",
         "media": 0.96947
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "0.92449",
         "description_distance": "1.01675",
         "media": 0.97062
@@ -1511,7 +1511,7 @@
         "media": 1.029305
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.05762",
         "description_distance": "1.00674",
         "media": 1.0321799999999999
@@ -1559,7 +1559,7 @@
         "media": 1.0697
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.08673",
         "description_distance": "1.06324",
         "media": 1.0749849999999999
@@ -1571,7 +1571,7 @@
         "media": 1.07629
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.07232",
         "description_distance": "1.08514",
         "media": 1.07873
@@ -1692,7 +1692,7 @@
     "orientador": "Gabriel Canhadas Genvigir",
     "results": [
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.98063",
         "description_distance": "0.96758",
         "media": 0.974105
@@ -1710,7 +1710,7 @@
         "media": 0.98485
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.00836",
         "description_distance": "0.97462",
         "media": 0.99149
@@ -1758,13 +1758,13 @@
         "media": 1.018555
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.03001",
         "description_distance": "1.0076",
         "media": 1.018805
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.01948",
         "description_distance": "1.02607",
         "media": 1.022775
@@ -1848,7 +1848,7 @@
         "media": 1.076505
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.05856",
         "description_distance": "1.09732",
         "media": 1.07794
@@ -1914,7 +1914,7 @@
         "media": 1.129025
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.14196",
         "description_distance": "1.1487",
         "media": 1.14533
@@ -1933,7 +1933,7 @@
     "orientador": "Henrique Yoshikazu Shishido",
     "results": [
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "0.92897",
         "description_distance": "0.97394",
         "media": 0.9514549999999999
@@ -1945,7 +1945,7 @@
         "media": 0.9532849999999999
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.97071",
         "description_distance": "0.96094",
         "media": 0.9658249999999999
@@ -1975,7 +1975,7 @@
         "media": 0.980705
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "0.98834",
         "description_distance": "0.98984",
         "media": 0.98909
@@ -2047,7 +2047,7 @@
         "media": 1.03231
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.09213",
         "description_distance": "0.98816",
         "media": 1.040145
@@ -2131,7 +2131,7 @@
         "media": 1.086585
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.06374",
         "description_distance": "1.11135",
         "media": 1.087545
@@ -2149,7 +2149,7 @@
         "media": 1.107535
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.05981",
         "description_distance": "1.15973",
         "media": 1.10977
@@ -2204,7 +2204,7 @@
         "media": 1.07176
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "1.04949",
         "description_distance": "1.10703",
         "media": 1.07826
@@ -2222,7 +2222,7 @@
         "media": 1.079895
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.02109",
         "description_distance": "1.13928",
         "media": 1.0801850000000002
@@ -2282,7 +2282,7 @@
         "media": 1.10009
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.11945",
         "description_distance": "1.08383",
         "media": 1.1016400000000002
@@ -2342,7 +2342,7 @@
         "media": 1.1149149999999999
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.06919",
         "description_distance": "1.18239",
         "media": 1.12579
@@ -2378,7 +2378,7 @@
         "media": 1.14649
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.12503",
         "description_distance": "1.1899",
         "media": 1.157465
@@ -2402,7 +2402,7 @@
         "media": 1.193965
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.17057",
         "description_distance": "1.24904",
         "media": 1.209805
@@ -2427,7 +2427,7 @@
         "media": 0.994685
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.02401",
         "description_distance": "0.97095",
         "media": 0.99748
@@ -2457,13 +2457,13 @@
         "media": 1.03007
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "1.03239",
         "description_distance": "1.02978",
         "media": 1.031085
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.03672",
         "description_distance": "1.02581",
         "media": 1.031265
@@ -2487,7 +2487,7 @@
         "media": 1.041895
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.03657",
         "description_distance": "1.05032",
         "media": 1.043445
@@ -2577,7 +2577,7 @@
         "media": 1.10689
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.09448",
         "description_distance": "1.13819",
         "media": 1.1163349999999999
@@ -2613,7 +2613,7 @@
         "media": 1.148085
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.13218",
         "description_distance": "1.16554",
         "media": 1.14886
@@ -2656,13 +2656,13 @@
     "orientador": "Claiton de Oliveira",
     "results": [
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.80034",
         "description_distance": "0.91118",
         "media": 0.8557600000000001
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "0.79254",
         "description_distance": "0.94658",
         "media": 0.86956
@@ -2728,7 +2728,7 @@
         "media": 0.98464
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "0.96041",
         "description_distance": "1.01009",
         "media": 0.98525
@@ -2782,13 +2782,13 @@
         "media": 1.02656
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.00955",
         "description_distance": "1.04386",
         "media": 1.026705
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.01907",
         "description_distance": "1.05749",
         "media": 1.0382799999999999
@@ -2824,7 +2824,7 @@
         "media": 1.05304
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.03689",
         "description_distance": "1.0823",
         "media": 1.059595
@@ -2915,7 +2915,7 @@
         "media": 0.888855
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "0.75676",
         "description_distance": "1.02167",
         "media": 0.8892150000000001
@@ -2933,7 +2933,7 @@
         "media": 0.90097
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.82991",
         "description_distance": "0.97544",
         "media": 0.902675
@@ -2969,7 +2969,7 @@
         "media": 0.939185
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "0.83132",
         "description_distance": "1.05493",
         "media": 0.943125
@@ -3047,7 +3047,7 @@
         "media": 0.990915
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "0.98326",
         "description_distance": "1.01087",
         "media": 0.997065
@@ -3077,7 +3077,7 @@
         "media": 1.01974
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "0.96378",
         "description_distance": "1.07908",
         "media": 1.02143
@@ -3119,7 +3119,7 @@
         "media": 1.0845
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.0816",
         "description_distance": "1.16943",
         "media": 1.125515
@@ -3138,7 +3138,7 @@
     "orientador": "Rodrigo Henrique Cunha Pal\u00e1cios",
     "results": [
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.97778",
         "description_distance": "0.95386",
         "media": 0.96582
@@ -3150,13 +3150,13 @@
         "media": 0.9687
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.00712",
         "description_distance": "0.94676",
         "media": 0.97694
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "0.9865",
         "description_distance": "0.99233",
         "media": 0.989415
@@ -3234,7 +3234,7 @@
         "media": 1.0437699999999999
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.03032",
         "description_distance": "1.06418",
         "media": 1.04725
@@ -3300,7 +3300,7 @@
         "media": 1.0883500000000002
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.08551",
         "description_distance": "1.09363",
         "media": 1.0895700000000001
@@ -3360,7 +3360,7 @@
         "media": 1.136755
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.16781",
         "description_distance": "1.13207",
         "media": 1.14994
@@ -3379,7 +3379,7 @@
     "orientador": "Henrique Yoshikazu Shishido",
     "results": [
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.94655",
         "description_distance": "1.01178",
         "media": 0.979165
@@ -3439,7 +3439,7 @@
         "media": 1.017265
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "0.9917",
         "description_distance": "1.04563",
         "media": 1.018665
@@ -3457,13 +3457,13 @@
         "media": 1.023635
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.00576",
         "description_distance": "1.04227",
         "media": 1.024015
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.07019",
         "description_distance": "0.97852",
         "media": 1.024355
@@ -3481,7 +3481,7 @@
         "media": 1.03282
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "0.97177",
         "description_distance": "1.11019",
         "media": 1.04098
@@ -3589,7 +3589,7 @@
         "media": 1.10901
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.0878",
         "description_distance": "1.15967",
         "media": 1.123735
@@ -3668,7 +3668,7 @@
         "media": 1.017885
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "1.0709",
         "description_distance": "0.96674",
         "media": 1.01882
@@ -3698,7 +3698,7 @@
         "media": 1.03934
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.0642",
         "description_distance": "1.01577",
         "media": 1.0399850000000002
@@ -3728,7 +3728,7 @@
         "media": 1.0453649999999999
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.10767",
         "description_distance": "0.99195",
         "media": 1.04981
@@ -3752,7 +3752,7 @@
         "media": 1.06878
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.10893",
         "description_distance": "1.03804",
         "media": 1.073485
@@ -3764,7 +3764,7 @@
         "media": 1.078695
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.08964",
         "description_distance": "1.07125",
         "media": 1.080445
@@ -3848,7 +3848,7 @@
         "media": 1.156895
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.15873",
         "description_distance": "1.18856",
         "media": 1.173645
@@ -3873,19 +3873,19 @@
         "media": 0.9326049999999999
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.90598",
         "description_distance": "1.00573",
         "media": 0.955855
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "0.92058",
         "description_distance": "1.00773",
         "media": 0.964155
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "0.99514",
         "description_distance": "0.97035",
         "media": 0.982745
@@ -3903,7 +3903,7 @@
         "media": 0.999595
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "0.95036",
         "description_distance": "1.0489",
         "media": 0.99963
@@ -4071,7 +4071,7 @@
         "media": 1.1302699999999999
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.11494",
         "description_distance": "1.15014",
         "media": 1.13254
@@ -4089,7 +4089,7 @@
         "media": 1.15637
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.19432",
         "description_distance": "1.18463",
         "media": 1.189475
@@ -4102,7 +4102,7 @@
     "orientador": "Alexandre R\u00f4molo Moreira Feitosa",
     "results": [
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "1.00149",
         "description_distance": "0.96033",
         "media": 0.98091
@@ -4132,7 +4132,7 @@
         "media": 1.0057399999999999
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "0.98964",
         "description_distance": "1.02599",
         "media": 1.007815
@@ -4186,7 +4186,7 @@
         "media": 1.040135
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.0522",
         "description_distance": "1.03559",
         "media": 1.043895
@@ -4210,7 +4210,7 @@
         "media": 1.06307
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.14052",
         "description_distance": "0.99429",
         "media": 1.067405
@@ -4246,7 +4246,7 @@
         "media": 1.0846049999999998
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.09461",
         "description_distance": "1.07743",
         "media": 1.08602
@@ -4276,7 +4276,7 @@
         "media": 1.0866250000000002
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.11119",
         "description_distance": "1.08546",
         "media": 1.098325
@@ -4373,7 +4373,7 @@
         "media": 1.01078
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.05865",
         "description_distance": "0.98439",
         "media": 1.02152
@@ -4391,7 +4391,7 @@
         "media": 1.027595
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "1.04602",
         "description_distance": "1.01059",
         "media": 1.028305
@@ -4493,7 +4493,7 @@
         "media": 1.0785200000000001
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.10441",
         "description_distance": "1.07687",
         "media": 1.09064
@@ -4505,7 +4505,7 @@
         "media": 1.0970900000000001
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.1142",
         "description_distance": "1.08166",
         "media": 1.09793
@@ -4523,7 +4523,7 @@
         "media": 1.11626
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.12633",
         "description_distance": "1.1077",
         "media": 1.1170149999999999
@@ -4565,7 +4565,7 @@
         "media": 1.17181
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.21242",
         "description_distance": "1.16275",
         "media": 1.187585
@@ -4596,13 +4596,13 @@
         "media": 0.911825
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.81505",
         "description_distance": "1.01132",
         "media": 0.913185
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "0.85652",
         "description_distance": "1.05513",
         "media": 0.9558249999999999
@@ -4614,7 +4614,7 @@
         "media": 0.965285
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "0.8846",
         "description_distance": "1.08327",
         "media": 0.983935
@@ -4632,7 +4632,7 @@
         "media": 1.00803
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.02936",
         "description_distance": "1.00995",
         "media": 1.019655
@@ -4752,7 +4752,7 @@
         "media": 1.09475
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.07236",
         "description_distance": "1.13226",
         "media": 1.1023100000000001
@@ -4806,7 +4806,7 @@
         "media": 1.148725
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.16671",
         "description_distance": "1.18992",
         "media": 1.178315
@@ -4849,13 +4849,13 @@
         "media": 0.93069
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "0.92542",
         "description_distance": "1.00417",
         "media": 0.9647950000000001
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.87547",
         "description_distance": "1.0557",
         "media": 0.965585
@@ -4867,13 +4867,13 @@
         "media": 0.984125
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "0.87695",
         "description_distance": "1.09345",
         "media": 0.9852000000000001
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "0.86341",
         "description_distance": "1.10809",
         "media": 0.98575
@@ -4981,7 +4981,7 @@
         "media": 1.061195
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.03045",
         "description_distance": "1.09846",
         "media": 1.0644550000000002
@@ -5047,7 +5047,7 @@
         "media": 1.1247850000000001
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.12825",
         "description_distance": "1.16382",
         "media": 1.146035
@@ -5090,19 +5090,19 @@
         "media": 0.8637
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.80537",
         "description_distance": "0.95031",
         "media": 0.87784
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "0.78299",
         "description_distance": "0.9917",
         "media": 0.887345
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "0.81196",
         "description_distance": "0.98756",
         "media": 0.89976
@@ -5162,7 +5162,7 @@
         "media": 0.956715
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "0.95987",
         "description_distance": "0.97385",
         "media": 0.96686
@@ -5192,7 +5192,7 @@
         "media": 0.99125
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "0.93103",
         "description_distance": "1.06364",
         "media": 0.997335
@@ -5288,7 +5288,7 @@
         "media": 1.1015000000000001
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.07559",
         "description_distance": "1.15836",
         "media": 1.116975
@@ -5319,7 +5319,7 @@
         "media": 0.90682
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.84215",
         "description_distance": "0.98496",
         "media": 0.9135549999999999
@@ -5373,7 +5373,7 @@
         "media": 0.9808250000000001
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "0.96596",
         "description_distance": "1.00087",
         "media": 0.9834149999999999
@@ -5397,13 +5397,13 @@
         "media": 1.0052599999999998
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "0.98688",
         "description_distance": "1.02395",
         "media": 1.005415
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "0.97517",
         "description_distance": "1.04347",
         "media": 1.00932
@@ -5427,7 +5427,7 @@
         "media": 1.028495
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.0576",
         "description_distance": "1.0138",
         "media": 1.0357
@@ -5535,7 +5535,7 @@
         "media": 1.120795
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.25081",
         "description_distance": "1.14154",
         "media": 1.196175
@@ -5548,7 +5548,7 @@
     "orientador": "Fl\u00e1via Belintani Blum Haddad",
     "results": [
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.86343",
         "description_distance": "0.9848",
         "media": 0.924115
@@ -5560,7 +5560,7 @@
         "media": 0.926375
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "0.84874",
         "description_distance": "1.00411",
         "media": 0.926425
@@ -5578,13 +5578,13 @@
         "media": 0.9469449999999999
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "0.9177",
         "description_distance": "0.98276",
         "media": 0.9502299999999999
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "0.93741",
         "description_distance": "0.99422",
         "media": 0.965815
@@ -5620,7 +5620,7 @@
         "media": 1.005405
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "0.91604",
         "description_distance": "1.09746",
         "media": 1.00675
@@ -5728,7 +5728,7 @@
         "media": 1.1015549999999998
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.07712",
         "description_distance": "1.14501",
         "media": 1.111065
@@ -5825,7 +5825,7 @@
         "media": 1.01483
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "1.03466",
         "description_distance": "0.9995",
         "media": 1.01708
@@ -5837,7 +5837,7 @@
         "media": 1.022775
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.03682",
         "description_distance": "1.01276",
         "media": 1.02479
@@ -5957,19 +5957,19 @@
         "media": 1.07099
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.11629",
         "description_distance": "1.0472",
         "media": 1.081745
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.07899",
         "description_distance": "1.09571",
         "media": 1.0873499999999998
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.10454",
         "description_distance": "1.0819",
         "media": 1.09322
@@ -6017,7 +6017,7 @@
         "media": 1.14225
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.23488",
         "description_distance": "1.23249",
         "media": 1.233685
@@ -6030,13 +6030,13 @@
     "orientador": "Jos\u00e9 Antonio Gon\u00e7alves",
     "results": [
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.94291",
         "description_distance": "0.89277",
         "media": 0.91784
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "0.8864",
         "description_distance": "0.97444",
         "media": 0.93042
@@ -6096,7 +6096,7 @@
         "media": 0.96956
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "0.98127",
         "description_distance": "0.96677",
         "media": 0.97402
@@ -6132,7 +6132,7 @@
         "media": 0.99037
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.04244",
         "description_distance": "0.96117",
         "media": 1.001805
@@ -6186,7 +6186,7 @@
         "media": 1.021615
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "0.9949",
         "description_distance": "1.04998",
         "media": 1.02244
@@ -6246,7 +6246,7 @@
         "media": 1.0848
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.11082",
         "description_distance": "1.09727",
         "media": 1.104045
@@ -6331,7 +6331,7 @@
         "media": 1.05328
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "1.09803",
         "description_distance": "1.01106",
         "media": 1.054545
@@ -6343,7 +6343,7 @@
         "media": 1.055455
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.10535",
         "description_distance": "1.009",
         "media": 1.057175
@@ -6373,7 +6373,7 @@
         "media": 1.073825
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.09001",
         "description_distance": "1.06553",
         "media": 1.0777700000000001
@@ -6409,13 +6409,13 @@
         "media": 1.089895
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.09957",
         "description_distance": "1.08156",
         "media": 1.090565
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.14465",
         "description_distance": "1.03834",
         "media": 1.091495
@@ -6499,7 +6499,7 @@
         "media": 1.1665450000000002
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.29368",
         "description_distance": "1.20949",
         "media": 1.251585
@@ -6518,7 +6518,7 @@
         "media": 0.84983
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.91195",
         "description_distance": "0.9236",
         "media": 0.917775
@@ -6560,7 +6560,7 @@
         "media": 0.979885
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "0.92651",
         "description_distance": "1.04004",
         "media": 0.983275
@@ -6578,7 +6578,7 @@
         "media": 0.98552
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "0.92357",
         "description_distance": "1.04875",
         "media": 0.98616
@@ -6614,7 +6614,7 @@
         "media": 1.001055
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "0.99758",
         "description_distance": "1.01958",
         "media": 1.00858
@@ -6722,7 +6722,7 @@
         "media": 1.09382
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.10343",
         "description_distance": "1.09229",
         "media": 1.0978599999999998
@@ -6740,7 +6740,7 @@
         "media": 1.1053799999999998
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.20057",
         "description_distance": "1.20523",
         "media": 1.2029
@@ -6753,7 +6753,7 @@
     "orientador": "Fl\u00e1via Belintani Blum Haddad",
     "results": [
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.93668",
         "description_distance": "0.90083",
         "media": 0.918755
@@ -6789,7 +6789,7 @@
         "media": 1.01703
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.07409",
         "description_distance": "0.96529",
         "media": 1.01969
@@ -6807,7 +6807,7 @@
         "media": 1.029965
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.06233",
         "description_distance": "1.00474",
         "media": 1.033535
@@ -6825,7 +6825,7 @@
         "media": 1.043955
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.10335",
         "description_distance": "0.99447",
         "media": 1.04891
@@ -6909,7 +6909,7 @@
         "media": 1.10305
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.14534",
         "description_distance": "1.06331",
         "media": 1.104325
@@ -6981,7 +6981,7 @@
         "media": 1.178495
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.20282",
         "description_distance": "1.15535",
         "media": 1.1790850000000002
@@ -7006,13 +7006,13 @@
         "media": 0.9925299999999999
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "0.99834",
         "description_distance": "1.0013",
         "media": 0.99982
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.99961",
         "description_distance": "1.00333",
         "media": 1.00147
@@ -7114,7 +7114,7 @@
         "media": 1.0589
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.06868",
         "description_distance": "1.05965",
         "media": 1.064165
@@ -7126,7 +7126,7 @@
         "media": 1.067445
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.05002",
         "description_distance": "1.09201",
         "media": 1.071015
@@ -7144,7 +7144,7 @@
         "media": 1.07921
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.08423",
         "description_distance": "1.07591",
         "media": 1.08007
@@ -7216,7 +7216,7 @@
         "media": 1.14761
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.17601",
         "description_distance": "1.16851",
         "media": 1.17226
@@ -7235,13 +7235,13 @@
     "orientador": "Claiton de Oliveira",
     "results": [
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.0255",
         "description_distance": "0.94236",
         "media": 0.98393
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "1.00509",
         "description_distance": "0.99625",
         "media": 1.00067
@@ -7319,7 +7319,7 @@
         "media": 1.0635
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.10759",
         "description_distance": "1.02305",
         "media": 1.06532
@@ -7373,7 +7373,7 @@
         "media": 1.105565
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.15579",
         "description_distance": "1.06112",
         "media": 1.1084550000000002
@@ -7409,7 +7409,7 @@
         "media": 1.1223
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.10302",
         "description_distance": "1.15019",
         "media": 1.126605
@@ -7463,7 +7463,7 @@
         "media": 1.181175
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.27072",
         "description_distance": "1.12929",
         "media": 1.200005
@@ -7494,13 +7494,13 @@
         "media": 1.041715
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "1.06243",
         "description_distance": "1.0298",
         "media": 1.046115
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.07765",
         "description_distance": "1.02465",
         "media": 1.05115
@@ -7530,7 +7530,7 @@
         "media": 1.0560049999999999
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.09395",
         "description_distance": "1.02632",
         "media": 1.0601349999999998
@@ -7626,7 +7626,7 @@
         "media": 1.0984850000000002
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.1263",
         "description_distance": "1.08489",
         "media": 1.105595
@@ -7662,7 +7662,7 @@
         "media": 1.135735
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.17251",
         "description_distance": "1.1193",
         "media": 1.145905
@@ -7704,7 +7704,7 @@
         "media": 1.17294
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.23081",
         "description_distance": "1.17652",
         "media": 1.203665
@@ -7729,7 +7729,7 @@
         "media": 1.00785
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "0.98763",
         "description_distance": "1.03079",
         "media": 1.00921
@@ -7765,13 +7765,13 @@
         "media": 1.020355
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "0.97457",
         "description_distance": "1.08048",
         "media": 1.027525
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "1.00263",
         "description_distance": "1.05281",
         "media": 1.02772
@@ -7867,7 +7867,7 @@
         "media": 1.07636
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.04174",
         "description_distance": "1.11132",
         "media": 1.07653
@@ -7885,7 +7885,7 @@
         "media": 1.105685
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.10278",
         "description_distance": "1.12807",
         "media": 1.115425
@@ -7897,7 +7897,7 @@
         "media": 1.116105
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.03985",
         "description_distance": "1.19369",
         "media": 1.1167699999999998
@@ -7964,7 +7964,7 @@
         "media": 0.97276
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.95476",
         "description_distance": "1.02096",
         "media": 0.9878600000000001
@@ -8024,7 +8024,7 @@
         "media": 1.04028
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.02851",
         "description_distance": "1.05989",
         "media": 1.0442
@@ -8042,7 +8042,7 @@
         "media": 1.04817
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.01277",
         "description_distance": "1.08651",
         "media": 1.0496400000000001
@@ -8060,7 +8060,7 @@
         "media": 1.0515500000000002
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.03682",
         "description_distance": "1.07083",
         "media": 1.053825
@@ -8078,7 +8078,7 @@
         "media": 1.0608
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.00702",
         "description_distance": "1.12207",
         "media": 1.0645449999999999
@@ -8186,7 +8186,7 @@
         "media": 1.16113
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.17961",
         "description_distance": "1.20702",
         "media": 1.1933150000000001
@@ -8211,7 +8211,7 @@
         "media": 0.9416100000000001
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "0.97842",
         "description_distance": "0.91762",
         "media": 0.94802
@@ -8223,7 +8223,7 @@
         "media": 0.955765
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.94975",
         "description_distance": "0.96223",
         "media": 0.95599
@@ -8259,7 +8259,7 @@
         "media": 0.983335
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "0.93074",
         "description_distance": "1.05967",
         "media": 0.9952049999999999
@@ -8349,7 +8349,7 @@
         "media": 1.036545
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.05706",
         "description_distance": "1.01673",
         "media": 1.036895
@@ -8361,7 +8361,7 @@
         "media": 1.04122
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.08727",
         "description_distance": "1.00604",
         "media": 1.046655
@@ -8373,7 +8373,7 @@
         "media": 1.059345
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.09608",
         "description_distance": "1.06643",
         "media": 1.081255
@@ -8440,13 +8440,13 @@
     "orientador": "Elis\u00e2ngela Aparecida da Silva Lizzi",
     "results": [
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "1.0753",
         "description_distance": "1.03879",
         "media": 1.057045
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.11754",
         "description_distance": "1.00275",
         "media": 1.060145
@@ -8512,7 +8512,7 @@
         "media": 1.0913650000000001
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.10097",
         "description_distance": "1.09831",
         "media": 1.09964
@@ -8560,7 +8560,7 @@
         "media": 1.1183649999999998
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.13733",
         "description_distance": "1.09961",
         "media": 1.1184699999999999
@@ -8596,7 +8596,7 @@
         "media": 1.13068
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.15204",
         "description_distance": "1.12911",
         "media": 1.1405750000000001
@@ -8668,7 +8668,7 @@
         "media": 1.2098499999999999
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.30939",
         "description_distance": "1.21398",
         "media": 1.261685
@@ -8681,13 +8681,13 @@
     "orientador": "Gabriel Costa Silva",
     "results": [
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.73568",
         "description_distance": "0.95394",
         "media": 0.8448100000000001
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "0.73325",
         "description_distance": "0.98612",
         "media": 0.859685
@@ -8717,7 +8717,7 @@
         "media": 0.8939650000000001
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "0.86802",
         "description_distance": "0.95389",
         "media": 0.910955
@@ -8795,7 +8795,7 @@
         "media": 0.9693
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "0.99108",
         "description_distance": "0.96578",
         "media": 0.9784299999999999
@@ -8825,7 +8825,7 @@
         "media": 1.0102250000000002
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "0.94535",
         "description_distance": "1.08002",
         "media": 1.012685
@@ -8897,7 +8897,7 @@
         "media": 1.070655
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.0738",
         "description_distance": "1.11956",
         "media": 1.09668
@@ -8922,7 +8922,7 @@
     "orientador": "Alexandre R\u00f4molo Moreira Feitosa",
     "results": [
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.93038",
         "description_distance": "0.95645",
         "media": 0.943415
@@ -8934,13 +8934,13 @@
         "media": 0.9655199999999999
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "0.9377",
         "description_distance": "1.00001",
         "media": 0.968855
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "0.98859",
         "description_distance": "0.96076",
         "media": 0.974675
@@ -8976,13 +8976,13 @@
         "media": 0.99996
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "0.96825",
         "description_distance": "1.03626",
         "media": 1.002255
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "0.95791",
         "description_distance": "1.05166",
         "media": 1.004785
@@ -9096,7 +9096,7 @@
         "media": 1.0967250000000002
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.09039",
         "description_distance": "1.11258",
         "media": 1.1014849999999998
@@ -9217,7 +9217,7 @@
         "media": 1.002195
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "1.01109",
         "description_distance": "1.01216",
         "media": 1.011625
@@ -9235,7 +9235,7 @@
         "media": 1.017415
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.0685",
         "description_distance": "0.97562",
         "media": 1.02206
@@ -9271,7 +9271,7 @@
         "media": 1.042385
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.05221",
         "description_distance": "1.03337",
         "media": 1.04279
@@ -9289,7 +9289,7 @@
         "media": 1.04517
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.06004",
         "description_distance": "1.0492",
         "media": 1.05462
@@ -9337,7 +9337,7 @@
         "media": 1.088935
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.07405",
         "description_distance": "1.11079",
         "media": 1.09242
@@ -9391,7 +9391,7 @@
         "media": 1.135295
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.26867",
         "description_distance": "1.18963",
         "media": 1.22915
@@ -9416,7 +9416,7 @@
         "media": 1.03768
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.02069",
         "description_distance": "1.07215",
         "media": 1.04642
@@ -9428,7 +9428,7 @@
         "media": 1.0482749999999998
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "1.0858",
         "description_distance": "1.02229",
         "media": 1.054045
@@ -9452,7 +9452,7 @@
         "media": 1.065155
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.13162",
         "description_distance": "1.01923",
         "media": 1.075425
@@ -9464,7 +9464,7 @@
         "media": 1.077165
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.07565",
         "description_distance": "1.07918",
         "media": 1.077415
@@ -9524,7 +9524,7 @@
         "media": 1.099985
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.14507",
         "description_distance": "1.07225",
         "media": 1.10866
@@ -9536,7 +9536,7 @@
         "media": 1.11315
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.0538",
         "description_distance": "1.18173",
         "media": 1.117765
@@ -9729,13 +9729,13 @@
         "media": 1.060475
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "0.98105",
         "description_distance": "1.14232",
         "media": 1.061685
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "1.04341",
         "description_distance": "1.08734",
         "media": 1.065375
@@ -9765,7 +9765,7 @@
         "media": 1.077175
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.08197",
         "description_distance": "1.07675",
         "media": 1.07936
@@ -9807,7 +9807,7 @@
         "media": 1.1065999999999998
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.14418",
         "description_distance": "1.11678",
         "media": 1.13048
@@ -9849,7 +9849,7 @@
         "media": 1.1661549999999998
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.16872",
         "description_distance": "1.17393",
         "media": 1.171325
@@ -9873,7 +9873,7 @@
         "media": 1.189175
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.22691",
         "description_distance": "1.29072",
         "media": 1.258815
@@ -9892,7 +9892,7 @@
         "media": 0.856355
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.79543",
         "description_distance": "1.00961",
         "media": 0.90252
@@ -9916,7 +9916,7 @@
         "media": 0.937315
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "0.92024",
         "description_distance": "0.97719",
         "media": 0.948715
@@ -9982,13 +9982,13 @@
         "media": 1.009445
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "0.9654",
         "description_distance": "1.05908",
         "media": 1.01224
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.00073",
         "description_distance": "1.03985",
         "media": 1.02029
@@ -10036,7 +10036,7 @@
         "media": 1.054965
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "0.972",
         "description_distance": "1.15261",
         "media": 1.0623049999999998
@@ -10108,7 +10108,7 @@
         "media": 1.10188
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.03194",
         "description_distance": "1.17485",
         "media": 1.103395
@@ -10157,13 +10157,13 @@
         "media": 0.9776549999999999
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "0.86169",
         "description_distance": "1.10556",
         "media": 0.983625
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "0.97425",
         "description_distance": "1.00044",
         "media": 0.9873449999999999
@@ -10187,13 +10187,13 @@
         "media": 0.99385
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "0.85431",
         "description_distance": "1.13396",
         "media": 0.994135
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.95852",
         "description_distance": "1.03549",
         "media": 0.997005
@@ -10247,13 +10247,13 @@
         "media": 1.0486499999999999
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.01119",
         "description_distance": "1.09305",
         "media": 1.05212
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.04664",
         "description_distance": "1.05844",
         "media": 1.05254
@@ -10368,7 +10368,7 @@
     "orientador": "Antonio Carlos Fernandes da Silva",
     "results": [
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.90488",
         "description_distance": "0.91935",
         "media": 0.912115
@@ -10404,7 +10404,7 @@
         "media": 0.97773
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "0.99585",
         "description_distance": "0.95991",
         "media": 0.9778800000000001
@@ -10416,7 +10416,7 @@
         "media": 0.9892650000000001
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "0.97243",
         "description_distance": "1.02212",
         "media": 0.9972749999999999
@@ -10440,7 +10440,7 @@
         "media": 1.0086249999999999
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.00651",
         "description_distance": "1.01359",
         "media": 1.0100500000000001
@@ -10476,7 +10476,7 @@
         "media": 1.02521
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.00054",
         "description_distance": "1.07487",
         "media": 1.0377049999999999
@@ -10590,7 +10590,7 @@
         "media": 1.145885
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.16092",
         "description_distance": "1.13839",
         "media": 1.149655
@@ -10609,7 +10609,7 @@
     "orientador": "Adriana Herden",
     "results": [
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.01948",
         "description_distance": "1.01631",
         "media": 1.017895
@@ -10633,19 +10633,19 @@
         "media": 1.04487
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "1.059",
         "description_distance": "1.04129",
         "media": 1.050145
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.04292",
         "description_distance": "1.05842",
         "media": 1.05067
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.01225",
         "description_distance": "1.08968",
         "media": 1.0509650000000001
@@ -10681,7 +10681,7 @@
         "media": 1.067485
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.00702",
         "description_distance": "1.13104",
         "media": 1.0690300000000001
@@ -10813,7 +10813,7 @@
         "media": 1.16618
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.13243",
         "description_distance": "1.20919",
         "media": 1.17081
@@ -10850,13 +10850,13 @@
     "orientador": "Wesley Angelino de Souza",
     "results": [
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.95129",
         "description_distance": "0.99355",
         "media": 0.9724200000000001
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.009",
         "description_distance": "0.94447",
         "media": 0.9767349999999999
@@ -10892,7 +10892,7 @@
         "media": 1.0150649999999999
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "0.99529",
         "description_distance": "1.03581",
         "media": 1.01555
@@ -10928,7 +10928,7 @@
         "media": 1.044815
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.02894",
         "description_distance": "1.06183",
         "media": 1.045385
@@ -11036,7 +11036,7 @@
         "media": 1.12759
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.1264",
         "description_distance": "1.13182",
         "media": 1.12911
@@ -11054,7 +11054,7 @@
         "media": 1.13502
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.11669",
         "description_distance": "1.15958",
         "media": 1.1381350000000001
@@ -11097,7 +11097,7 @@
         "media": 0.98489
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "0.95397",
         "description_distance": "1.02154",
         "media": 0.9877549999999999
@@ -11163,7 +11163,7 @@
         "media": 1.02864
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "0.99747",
         "description_distance": "1.06181",
         "media": 1.0296399999999999
@@ -11187,7 +11187,7 @@
         "media": 1.038745
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "1.04894",
         "description_distance": "1.03625",
         "media": 1.042595
@@ -11229,7 +11229,7 @@
         "media": 1.058795
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.08703",
         "description_distance": "1.04555",
         "media": 1.06629
@@ -11247,7 +11247,7 @@
         "media": 1.07444
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.02456",
         "description_distance": "1.12468",
         "media": 1.07462
@@ -11313,7 +11313,7 @@
         "media": 1.147795
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.20754",
         "description_distance": "1.19035",
         "media": 1.1989450000000001
@@ -11338,7 +11338,7 @@
         "media": 0.95662
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.90749",
         "description_distance": "1.02214",
         "media": 0.964815
@@ -11386,7 +11386,7 @@
         "media": 0.99595
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "0.94673",
         "description_distance": "1.05742",
         "media": 1.002075
@@ -11398,13 +11398,13 @@
         "media": 1.005675
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.01963",
         "description_distance": "0.99337",
         "media": 1.0065
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "0.93756",
         "description_distance": "1.07747",
         "media": 1.007515
@@ -11464,7 +11464,7 @@
         "media": 1.04412
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "0.97088",
         "description_distance": "1.11934",
         "media": 1.04511
@@ -11542,7 +11542,7 @@
         "media": 1.103095
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.10498",
         "description_distance": "1.10409",
         "media": 1.104535
@@ -11579,7 +11579,7 @@
         "media": 0.908045
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.87485",
         "description_distance": "0.98657",
         "media": 0.9307099999999999
@@ -11603,7 +11603,7 @@
         "media": 0.98849
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "0.99615",
         "description_distance": "1.00041",
         "media": 0.9982800000000001
@@ -11645,7 +11645,7 @@
         "media": 1.02813
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.00925",
         "description_distance": "1.04932",
         "media": 1.029285
@@ -11687,7 +11687,7 @@
         "media": 1.04751
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.04037",
         "description_distance": "1.05873",
         "media": 1.04955
@@ -11735,7 +11735,7 @@
         "media": 1.08984
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.05535",
         "description_distance": "1.12756",
         "media": 1.0914549999999998
@@ -11801,7 +11801,7 @@
         "media": 1.1565699999999999
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.16173",
         "description_distance": "1.19006",
         "media": 1.175895
@@ -11832,7 +11832,7 @@
         "media": 1.05285
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "1.09754",
         "description_distance": "1.0117",
         "media": 1.05462
@@ -11868,7 +11868,7 @@
         "media": 1.0755750000000002
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.09287",
         "description_distance": "1.05899",
         "media": 1.07593
@@ -11880,7 +11880,7 @@
         "media": 1.0777899999999998
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.13557",
         "description_distance": "1.0205",
         "media": 1.0780349999999999
@@ -11970,7 +11970,7 @@
         "media": 1.120125
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.15438",
         "description_distance": "1.1064",
         "media": 1.13039
@@ -11988,7 +11988,7 @@
         "media": 1.1394099999999998
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.15594",
         "description_distance": "1.12309",
         "media": 1.1395149999999998
@@ -12042,7 +12042,7 @@
         "media": 1.187975
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.29169",
         "description_distance": "1.21445",
         "media": 1.2530700000000001
@@ -12061,7 +12061,7 @@
         "media": 0.9502999999999999
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "0.96919",
         "description_distance": "0.9627",
         "media": 0.965945
@@ -12073,7 +12073,7 @@
         "media": 0.96916
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "0.95075",
         "description_distance": "1.00357",
         "media": 0.97716
@@ -12097,13 +12097,13 @@
         "media": 1.008995
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.0471",
         "description_distance": "0.98921",
         "media": 1.018155
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.00645",
         "description_distance": "1.03128",
         "media": 1.018865
@@ -12229,7 +12229,7 @@
         "media": 1.100455
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.10171",
         "description_distance": "1.10159",
         "media": 1.10165
@@ -12277,7 +12277,7 @@
         "media": 1.13683
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.19207",
         "description_distance": "1.14086",
         "media": 1.166465
@@ -12314,7 +12314,7 @@
         "media": 0.986205
       },
       {
-        "name": "Alexandre Rossi Pascoal",
+        "name": "Alexandre Rossi Paschoal",
         "title_distance": "1.00547",
         "description_distance": "0.99957",
         "media": 1.00252
@@ -12338,7 +12338,7 @@
         "media": 1.0262600000000002
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
+        "name": "Antonio Carlos Fernandes da Silva",
         "title_distance": "1.02121",
         "description_distance": "1.03364",
         "media": 1.027425
@@ -12380,7 +12380,7 @@
         "media": 1.061215
       },
       {
-        "name": "Adriano Rivolli Da Silva",
+        "name": "Adriano Rivolli",
         "title_distance": "1.13779",
         "description_distance": "0.9886",
         "media": 1.0631950000000001
@@ -12392,7 +12392,7 @@
         "media": 1.066765
       },
       {
-        "name": "Eduardo Cotrin Texeira",
+        "name": "Eduardo Cotrin Teixeira",
         "title_distance": "1.07359",
         "description_distance": "1.06044",
         "media": 1.067015
@@ -12476,7 +12476,7 @@
         "media": 1.1096949999999999
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
         "title_distance": "1.09975",
         "description_distance": "1.13443",
         "media": 1.1170900000000001
@@ -12524,7 +12524,7 @@
         "media": 1.159715
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
         "title_distance": "1.2713",
         "description_distance": "1.18302",
         "media": 1.22716
@@ -12532,243 +12532,243 @@
     ]
   },
   {
-    "titulo": "NFER\u00caNCIA DE REDES G\u00caNICAS: Valida\u00e7\u00e3o de Infer\u00eancia da Rede para a Bact\u00e9ria Escherichia Coli",
+    "titulo": "INFER\u00caNCIA DE REDES G\u00caNICAS: Valida\u00e7\u00e3o de Infer\u00eancia da Rede para a Bact\u00e9ria Escherichia Coli",
     "resumo": "Escherichia Coli \u00e9 uma bact\u00e9ria com uma not\u00e1vel capacidade de causar infec\u00e7\u00f5es. Surtos de doen\u00e7as causadas por ela podem afetar muitos indiv\u0131\u0301duos. Compreender como seus genes se relacionam pode ajudar no tratamento e preven\u00e7\u00e3o de infec\u00e7\u00f5es. Neste contexto, a infer\u00eancia de redes g\u00eanicas pode ser utilizada para recuperar a rede da E. coli. No entanto, h\u00e1 um problema ao se inferir redes g\u00eanicas: a quantidade de vari\u00e1veis \u00e9 muito grande em rela\u00e7\u00e3o a quantidade de amostras. Uma poss\u0131\u0301vel solu\u00e7\u00e3o \u00e9 adotar dados biol\u00f3gicos j\u00e1 conhecidos. Assim, este trabalho prop\u00f5em validar a infer\u00eancia da rede da E. coli com o uso dados biol\u00f3gicos j\u00e1 existentes. Desta forma pode-se analisar se o uso de tais dados podem ajudar no processo de infer\u00eancia. Infer\u00eancia de redes g\u00eanicas. Escherichia Coli. Valida\u00e7\u00e3o.",
     "orientador": "Fabr\u00edcio Martins Lopes",
     "results": [
       {
         "name": "Lucas Dias Hiera Sampaio",
-        "title_distance": "0.97648",
+        "title_distance": "0.98166",
         "description_distance": "1.0503",
-        "media": 1.01339
+        "media": 1.0159799999999999
       },
       {
-        "name": "Adriano Rivolli Da Silva",
-        "title_distance": "1.05798",
+        "name": "Adriano Rivolli",
+        "title_distance": "1.05794",
         "description_distance": "1.02193",
-        "media": 1.039955
-      },
-      {
-        "name": "Rog\u00e9rio Santos Pozza",
-        "title_distance": "1.0323",
-        "description_distance": "1.06918",
-        "media": 1.05074
+        "media": 1.039935
       },
       {
         "name": "Henrique Yoshikazu Shishido",
-        "title_distance": "1.03808",
+        "title_distance": "1.03683",
         "description_distance": "1.06959",
-        "media": 1.0538349999999999
+        "media": 1.05321
       },
       {
-        "name": "Ant\u00f4nio Carlos Fernandes da Silva",
-        "title_distance": "1.05845",
+        "name": "Antonio Carlos Fernandes da Silva",
+        "title_distance": "1.04278",
         "description_distance": "1.06741",
-        "media": 1.06293
+        "media": 1.0550950000000001
       },
       {
-        "name": "Alexandre Rossi Pascoal",
-        "title_distance": "1.09111",
+        "name": "Rog\u00e9rio Santos Pozza",
+        "title_distance": "1.0538",
+        "description_distance": "1.06918",
+        "media": 1.06149
+      },
+      {
+        "name": "Alexandre Rossi Paschoal",
+        "title_distance": "1.08037",
         "description_distance": "1.04842",
-        "media": 1.0697649999999999
-      },
-      {
-        "name": "Francisco Pereira Junior",
-        "title_distance": "1.12933",
-        "description_distance": "1.02843",
-        "media": 1.0788799999999998
+        "media": 1.064395
       },
       {
         "name": "Alexandre LErario",
-        "title_distance": "1.06495",
+        "title_distance": "1.05896",
         "description_distance": "1.09391",
-        "media": 1.07943
+        "media": 1.076435
       },
       {
         "name": "Rosangela de F\u00e1tima Pereira Marquesone",
-        "title_distance": "1.1281",
+        "title_distance": "1.12615",
         "description_distance": "1.03107",
-        "media": 1.079585
-      },
-      {
-        "name": "Andr\u00e9 Luiz Przybysz",
-        "title_distance": "1.10363",
-        "description_distance": "1.06824",
-        "media": 1.085935
+        "media": 1.0786099999999998
       },
       {
         "name": "Fabr\u00edcio Martins Lopes",
-        "title_distance": "1.09057",
+        "title_distance": "1.07955",
         "description_distance": "1.0816",
-        "media": 1.086085
+        "media": 1.080575
+      },
+      {
+        "name": "Francisco Pereira Junior",
+        "title_distance": "1.13366",
+        "description_distance": "1.02843",
+        "media": 1.081045
+      },
+      {
+        "name": "Andr\u00e9 Luiz Przybysz",
+        "title_distance": "1.101",
+        "description_distance": "1.06824",
+        "media": 1.0846200000000001
       },
       {
         "name": "Claiton de Oliveira",
-        "title_distance": "1.05572",
+        "title_distance": "1.05282",
         "description_distance": "1.12681",
-        "media": 1.091265
+        "media": 1.0898150000000002
       },
       {
         "name": "Gabriel Canhadas Genvigir",
-        "title_distance": "1.09269",
+        "title_distance": "1.09008",
         "description_distance": "1.10234",
-        "media": 1.097515
-      },
-      {
-        "name": "Alexandre R\u00f4molo Moreira Feitosa",
-        "title_distance": "1.09331",
-        "description_distance": "1.10268",
-        "media": 1.097995
-      },
-      {
-        "name": "Gabriel Costa Silva",
-        "title_distance": "1.07283",
-        "description_distance": "1.12483",
-        "media": 1.09883
+        "media": 1.0962100000000001
       },
       {
         "name": "Rodrigo Henrique Cunha Pal\u00e1cios",
-        "title_distance": "1.10716",
+        "title_distance": "1.1",
         "description_distance": "1.09354",
-        "media": 1.10035
+        "media": 1.09677
       },
       {
-        "name": "Natassya Barlate Floro Da Silva",
-        "title_distance": "1.0529",
-        "description_distance": "1.15228",
-        "media": 1.10259
+        "name": "Alexandre R\u00f4molo Moreira Feitosa",
+        "title_distance": "1.09123",
+        "description_distance": "1.10268",
+        "media": 1.096955
       },
       {
         "name": "Luciano Tadeu Esteves Pansanato",
-        "title_distance": "1.06972",
+        "title_distance": "1.05569",
         "description_distance": "1.13912",
-        "media": 1.10442
+        "media": 1.097405
       },
       {
-        "name": "Eduardo Filgueiras Damasceno",
-        "title_distance": "1.10189",
-        "description_distance": "1.11848",
-        "media": 1.110185
+        "name": "Gabriel Costa Silva",
+        "title_distance": "1.07497",
+        "description_distance": "1.12483",
+        "media": 1.0998999999999999
       },
       {
         "name": "Danilo Sipoli Sanches",
-        "title_distance": "1.07393",
+        "title_distance": "1.0631",
         "description_distance": "1.14645",
-        "media": 1.11019
-      },
-      {
-        "name": "Cl\u00e9ber Gimenez Corr\u00eaa",
-        "title_distance": "1.10257",
-        "description_distance": "1.12859",
-        "media": 1.11558
+        "media": 1.104775
       },
       {
         "name": "Andr\u00e9 Yoshiaki Kashiwabara",
-        "title_distance": "1.09685",
+        "title_distance": "1.08274",
         "description_distance": "1.13722",
-        "media": 1.117035
+        "media": 1.10998
       },
       {
-        "name": "Eduardo Cotrin Texeira",
-        "title_distance": "1.13254",
-        "description_distance": "1.11131",
-        "media": 1.121925
+        "name": "Eduardo Filgueiras Damasceno",
+        "title_distance": "1.10162",
+        "description_distance": "1.11848",
+        "media": 1.11005
+      },
+      {
+        "name": "Cl\u00e9ber Gimenez Corr\u00eaa",
+        "title_distance": "1.09582",
+        "description_distance": "1.12859",
+        "media": 1.1122049999999999
+      },
+      {
+        "name": "Nat\u00e1ssya Barlate Floro da Silva",
+        "title_distance": "1.07656",
+        "description_distance": "1.15228",
+        "media": 1.11442
       },
       {
         "name": "Fl\u00e1via Belintani Blum Haddad",
-        "title_distance": "1.10952",
+        "title_distance": "1.09941",
         "description_distance": "1.13439",
-        "media": 1.121955
+        "media": 1.1169
       },
       {
         "name": "Adriana Herden",
-        "title_distance": "1.13183",
+        "title_distance": "1.11848",
         "description_distance": "1.12313",
-        "media": 1.1274799999999998
+        "media": 1.1208049999999998
+      },
+      {
+        "name": "Eduardo Cotrin Teixeira",
+        "title_distance": "1.13652",
+        "description_distance": "1.11131",
+        "media": 1.123915
       },
       {
         "name": "Willian Massami Watanabe",
-        "title_distance": "1.12507",
+        "title_distance": "1.11574",
         "description_distance": "1.14759",
-        "media": 1.13633
+        "media": 1.131665
       },
       {
         "name": "Giovani Volnei Meinerz",
-        "title_distance": "1.1414",
+        "title_distance": "1.13012",
         "description_distance": "1.13597",
-        "media": 1.138685
+        "media": 1.133045
       },
       {
         "name": "Katia Romero Felizardo Scannavino",
-        "title_distance": "1.14634",
+        "title_distance": "1.1364",
         "description_distance": "1.14133",
-        "media": 1.143835
+        "media": 1.138865
       },
       {
         "name": "\u00c9rica Ferreira de Souza",
-        "title_distance": "1.12285",
+        "title_distance": "1.1124",
         "description_distance": "1.16863",
-        "media": 1.14574
+        "media": 1.1405150000000002
       },
       {
         "name": "Silvio Ricardo Rodrigues Sanches",
-        "title_distance": "1.12102",
+        "title_distance": "1.11077",
         "description_distance": "1.18718",
-        "media": 1.1541
+        "media": 1.148975
       },
       {
-        "name": "F\u00e1bio Fernandes da R. Vicente",
-        "title_distance": "1.17436",
+        "name": "F\u00e1bio Fernandes da Rocha Vicente",
+        "title_distance": "1.15643",
         "description_distance": "1.15345",
-        "media": 1.1639050000000002
-      },
-      {
-        "name": "Paulo Augusto Nardi",
-        "title_distance": "1.19724",
-        "description_distance": "1.15018",
-        "media": 1.17371
+        "media": 1.15494
       },
       {
         "name": "Adriane Carla Anast\u00e1cio da Silva",
-        "title_distance": "1.13557",
+        "title_distance": "1.12132",
         "description_distance": "1.21761",
-        "media": 1.17659
+        "media": 1.1694650000000002
       },
       {
         "name": "Jos\u00e9 Augusto Fabri",
-        "title_distance": "1.16231",
+        "title_distance": "1.14316",
         "description_distance": "1.19736",
-        "media": 1.179835
+        "media": 1.1702599999999999
+      },
+      {
+        "name": "Paulo Augusto Nardi",
+        "title_distance": "1.19151",
+        "description_distance": "1.15018",
+        "media": 1.170845
       },
       {
         "name": "Debora Goncalves Ribeiro Dias",
-        "title_distance": "1.19189",
+        "title_distance": "1.19401",
         "description_distance": "1.19168",
-        "media": 1.1917849999999999
+        "media": 1.1928450000000002
       },
       {
         "name": "Alessandro Silveira Duarte",
-        "title_distance": "1.16569",
+        "title_distance": "1.15074",
         "description_distance": "1.23795",
-        "media": 1.20182
+        "media": 1.1943450000000002
       },
       {
         "name": "Andr\u00e9 Luis dos Santos Domingues",
-        "title_distance": "1.16569",
+        "title_distance": "1.15074",
         "description_distance": "1.23795",
-        "media": 1.20182
+        "media": 1.1943450000000002
       },
       {
         "name": "Vanderley Flor da Rosa",
-        "title_distance": "1.16569",
+        "title_distance": "1.15074",
         "description_distance": "1.23795",
-        "media": 1.20182
+        "media": 1.1943450000000002
       },
       {
         "name": "Jos\u00e9 Antonio Gon\u00e7alves",
-        "title_distance": "1.2257",
+        "title_distance": "1.20739",
         "description_distance": "1.20238",
-        "media": 1.21404
+        "media": 1.204885
       }
     ]
   }

@@ -15,10 +15,12 @@ for year in yearArray:
       # for every work in the file
       for work in test_result:
         # taking the first 5 of the results
-        short_results = work["results"][:10]
+        short_results = work["results"][:5]
         for result in short_results:
           if work["orientador"] in result["name"]:
             print(work["orientador"])
             print(result["name"])
             counter += 1
-      print(f"acertos {year}_{model}: " + str(counter/len(test_result)))
+      print("total: " + str(len(test_result)))
+      print(f"acertos: " + str(counter))
+      print(f"% {year}_{model}: " + str(round(((counter/len(test_result)) * 100), 2)) + "%\n\n")

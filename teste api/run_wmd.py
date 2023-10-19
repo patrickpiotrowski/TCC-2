@@ -386,23 +386,19 @@ def calculate(title, description, id, model):
     with open(f"data/{id}-{title}-results.json", "a") as arquivo_json:
         json.dump(array, arquivo_json)
 
-    return professors, maxDistances, minDistances, timeTaken
+    # return professors, maxDistances, minDistances, timeTaken
 
     # !!! if testing, use this part and comment the above return !!!!
 
-    # def calculate_mean(object):
-    #     title_dist = float(object["title_distance"])
-    #     description_dist = float(object["description_distance"])
-    #     return (title_dist + description_dist) / 2
-    
-    # for professor in professors:
-    #     del professor["id"]
-    #     del professor["email"]
-    #     del professor["area"]
-    #     professor["media"] = calculate_mean(professor)
-
-    
-    # # Ordenar a lista de objetos com base na média das distâncias
-    # objetos_ordenados = sorted(professors, key=lambda x: x["media"])
-
-    # return objetos_ordenados
+    def calculate_mean(object):
+        title_dist = float(object["title_distance"])
+        description_dist = float(object["description_distance"])
+        return (title_dist + description_dist) / 2
+    for professor in professors:
+        del professor["id"]
+        del professor["email"]
+        del professor["area"]
+        professor["media"] = calculate_mean(professor)
+    # Ordenar a lista de objetos com base na média das distâncias
+    objetos_ordenados = sorted(professors, key=lambda x: x["media"])
+    return objetos_ordenados
