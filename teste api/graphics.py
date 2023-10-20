@@ -8,7 +8,7 @@ modelArray = ['cbow_s50', 'cbow_s100','cbow_s300']
 
 for year in yearArray:
   for model in modelArray:
-    with open(f"{os.getcwd()}/test_2_results/{year}_{model}.json", 'r', encoding='utf-8') as json_file:
+    with open(f"{os.getcwd()}/test_1_results/{year}_{model}.json", 'r', encoding='utf-8') as json_file:
       # loading the file
       test_result = json.load(json_file, object_pairs_hook=OrderedDict)
       number_result = []
@@ -32,7 +32,7 @@ for year in yearArray:
                                 "%": round(((counter/len(test_result)) * 100), 2)
                               })
     
-    with open(f"number_results/test_2_{year}_{model}.json", "a") as arquivo_json:
+    with open(f"number_results/test_1_{year}_{model}.json", "a") as arquivo_json:
       json.dump(number_result, arquivo_json)
       
     print(number_result)

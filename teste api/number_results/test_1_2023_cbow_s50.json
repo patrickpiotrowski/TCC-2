@@ -1,0 +1,77 @@
+[
+  {
+    "total": 32,
+    "acertos": 14,
+    "%": 43.75
+  },
+  {
+    "titulo_trabalho": "An\u00e1lise do Desempenho de Algoritmos Classificadores para Detec\u00e7\u00e3o de Anomalias em Sistemas de Detec\u00e7\u00e3o de Intrus\u00e3o",
+    "orientador": "Lucas Dias Hiera Sampaio",
+    "resultado": "Lucas Dias Hiera Sampaio"
+  },
+  {
+    "titulo_trabalho": "An\u00e1lise de presen\u00e7a de dados pessoais em senhas: uma abordagem utilizando redes neurais siamesas",
+    "orientador": "Lucas Dias Hiera Sampaio",
+    "resultado": "Lucas Dias Hiera Sampaio"
+  },
+  {
+    "titulo_trabalho": "Abordagem lexical para an\u00e1lise de sentimento no contexto do mercado de a\u00e7\u00f5es brasileiro",
+    "orientador": "Giovani Volnei Meinerz",
+    "resultado": "Giovani Volnei Meinerz"
+  },
+  {
+    "titulo_trabalho": "ANALISTA DE RPA",
+    "orientador": "Alexandre Rossi Paschoal",
+    "resultado": "Alexandre Rossi Paschoal"
+  },
+  {
+    "titulo_trabalho": "Aplicativo m\u00f3vel para gerenciamento de atividades complementares dos discentes do Departamento de Computa\u00e7\u00e3o da UTFPR Corn\u00e9lio Proc\u00f3pio",
+    "orientador": "Henrique Yoshikazu Shishido",
+    "resultado": "Henrique Yoshikazu Shishido"
+  },
+  {
+    "titulo_trabalho": "APLICATIVO PARA VISUALIZA\u00c7\u00c3O DE METADADOS DE ARTIGOS CIENT\u00cdFICOS",
+    "orientador": "Alexandre Rossi Paschoal",
+    "resultado": "Alexandre Rossi Paschoal"
+  },
+  {
+    "titulo_trabalho": "SIMULA\u00c7\u00c3O DE REDES IOT COM T\u00c9CNICAS DE SEGURAN\u00c7A COM PACKET TRACER",
+    "orientador": "Rog\u00e9rio Santos Pozza",
+    "resultado": "Rog\u00e9rio Santos Pozza"
+  },
+  {
+    "titulo_trabalho": "DESENVOLVIMENTO DE UM BRA\u00c7O ROB\u00d3TICO UTILIZANDO MICROCONTROLADOR ESP8266 CONTROLADO VIA WI-FI",
+    "orientador": "Antonio Carlos Fernandes da Silva",
+    "resultado": "Antonio Carlos Fernandes da Silva"
+  },
+  {
+    "titulo_trabalho": "AN\u00c1LISES DE ARQUITETURAS DE DADOS PARA PROJETOS DE BIG DATA",
+    "orientador": "Rosangela de F\u00e1tima Pereira Marquesone",
+    "resultado": "Rosangela de F\u00e1tima Pereira Marquesone"
+  },
+  {
+    "titulo_trabalho": "CI ou CD UTILIZANDO A FERRAMENTA JENKINS: UM ESTUDO DE CASO",
+    "orientador": "Cl\u00e9ber Gimenez Corr\u00eaa",
+    "resultado": "Cl\u00e9ber Gimenez Corr\u00eaa"
+  },
+  {
+    "titulo_trabalho": "TRABALHO DE DESENVOLVEDOR DE JOGOS UTILIZANDO O MOTOR UNITY",
+    "orientador": "Fl\u00e1via Belintani Blum Haddad",
+    "resultado": "Fl\u00e1via Belintani Blum Haddad"
+  },
+  {
+    "titulo_trabalho": "PROT\u00d3TIPO DE FERRAMENTA MODULAR INTERATIVA PARA ENSINO E APRENDIZADO DE ESTRUTURAS DE DADOS",
+    "orientador": "Adriano Rivolli",
+    "resultado": "Adriano Rivolli"
+  },
+  {
+    "titulo_trabalho": "MEIO DE PAGAMENTO POR NFC PARA CRIPTOMOEDAS",
+    "orientador": "Lucas Dias Hiera Sampaio",
+    "resultado": "Lucas Dias Hiera Sampaio"
+  },
+  {
+    "titulo_trabalho": "ANALISANDO O IMPACTO DO PROFISSIONAL DE QUALITY ASSURANCE EM PROJETOS SCRUM: UM ESTUDO ENTRE DOIS CASOS REAIS",
+    "orientador": "Fl\u00e1via Belintani Blum Haddad",
+    "resultado": "Fl\u00e1via Belintani Blum Haddad"
+  }
+]

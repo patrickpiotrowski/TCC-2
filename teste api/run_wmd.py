@@ -1,4 +1,4 @@
-def calculate(title, description, id, model):
+def calculate(title, description, id, model, contador):
 
     import json
     import os
@@ -30,9 +30,14 @@ def calculate(title, description, id, model):
         return [w for w in sentence.lower().split() if w not in stop_words]
 
     # Define sentences
-    with open(f"{os.getcwd()}/professors_data/professors_with_pdf_data.json", 'r', encoding='utf-8') as json_file:
+    if contador == 1:
+        with open(f"{os.getcwd()}/professors_data/professors.json", 'r', encoding='utf-8') as json_file:
         # Use a função json.load() para carregar o conteúdo do arquivo em uma estrutura de dados Python
-        professors = json.load(json_file)
+            professors = json.load(json_file)
+    elif contador == 2:
+        with open(f"{os.getcwd()}/professors_data/professors_with_pdf_data.json", 'r', encoding='utf-8') as json_file:
+        # Use a função json.load() para carregar o conteúdo do arquivo em uma estrutura de dados Python
+            professors = json.load(json_file)
 
     import time
     import timeit
@@ -150,7 +155,7 @@ def calculate(title, description, id, model):
 
     print("Time taken: %f seconds" % timeTaken["timeTaken"])
 
-    with open(f"data/test_2/{id}-{title}-results.json", "a") as arquivo_json:
+    with open(f"data/test_{contador}/{id}-{title}-results.json", "a") as arquivo_json:
         json.dump(array, arquivo_json)
 
     # return professors, maxDistances, minDistances, timeTaken
