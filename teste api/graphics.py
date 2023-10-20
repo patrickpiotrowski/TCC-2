@@ -27,10 +27,10 @@ for year in yearArray:
             number_result.append(object_result)
 
     number_result.insert(0, { 
-                                "total": len(test_result),
-                                "acertos": counter,
-                                "%": round(((counter/len(test_result)) * 100), 2)
-                              })
+                              "total": len(test_result),
+                              "acertos": counter,
+                              "%": round(((counter/len(test_result)) * 100), 2)
+                            })
     
     with open(f"number_results/test_1_{year}_{model}.json", "a") as arquivo_json:
       json.dump(number_result, arquivo_json)
