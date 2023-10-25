@@ -1,0 +1,236 @@
+[
+  {
+    "id": 0,
+    "name": "Adriana Herden",
+    "email": "herden@utfpr.edu.br",
+    "area": "Engenharia de Software, Qualidade de Software, BPMN, BPMS, Robótica Educacional, Gerenciamento Ágil de Projetos Ciências Exatas e da Terra Ciência da Computação Metodologia e Técnicas da Computação Engenharia de Software Descoberta de Conhecimento em Banco de Dados Engenharias Engenharia Elétrica Robótica Educacional"
+  },
+  {
+    "id": 1,
+    "name": "Adriane Carla Anastácio da Silva",
+    "email": "anastacio@utfpr.edu.br",
+    "area": "Engenharia de Software, Informática na Educação Ciências Exatas e da Terra Ciência da Computação Ciências Exatas e da Terra Ciência da Computação Metodologia e Técnicas da Computação Engenharia de Software Ciências Humanas Educação Ensino-Aprendizagem Tecnologia Educacional Engenharias Engenharia de Produção"
+  },
+  {
+    "id": 2,
+    "name": "Adriano Rivolli",
+    "email": "rivolli@utfpr.edu.br",
+    "area": "Aprendizado de Máquina, Inteligência Artificial, Meta-aprendizado, Ferramentas jurídicas, Ferramentas para o mercado financeiro de ações, Sistemas de informação interativo e educativos Ciências Exatas e da Terra Ciência da Computação Web Semântica Interação Humano Computador Banco de Dados"
+  },
+  {
+    "id": 3,
+    "name": "Alessandro Silveira Duarte",
+    "email": "duarte@utfpr.edu.br",
+    "area": "Engenharia de Software Ciências Exatas e da Terra Ciência da Computação Sistemas de Computação Análise de Sistemas"
+  },
+  {
+    "id": 4,
+    "name": "Alexandre LErario",
+    "email": "alerario@utfpr.edu.br",
+    "area": "Desenvolvimento Distribuído, Crowdsourcing, Manutenção de Software, Gestão de Projetos Ciências Exatas e da Terra Ciência da Computação Engenharia de Software Metodologia e Técnicas da Computação Sistemas de Informação Evolução/manutenção de Software Desenvolvimento de Aplicações Distribuídas Linguagens de Programação Redes de Computadores"
+  },
+  {
+    "id": 5,
+    "name": "Alexandre Rômolo Moreira Feitosa",
+    "email": "alexandrefeitosa@utfpr.edu.br",
+    "area": "Desenvolvimento de Software, Programação para Dispositivos Móveis, Informática na Educação, Tutores Inteligentes Ciências Exatas e da Terra Ciência da Computação Sistemas de Computação Programação Avançada de Alta Tecnologia Arquitetura de Sistemas de Computação Software Básico"
+  },
+  {
+    "id": 6,
+    "name": "Alexandre Rossi Paschoal",
+    "email": "paschoal@utfpr.edu.br ",
+    "area": "Bioinformática, Jogos, Banco de Dados, Aprendizado de Máquina, Desenvolvimento Web, Ferramentas Ciências Exatas e da Terra Ciência da Computação Bioinformática Reconhecimento de Padrões Biologia Computacional dos RNAs (Non-coding RNAs) Modelagem e integração de dados Mineração de Dados"
+  },
+  {
+    "id": 7,
+    "name": "André Luis dos Santos Domingues",
+    "email": "anddomingues@utfpr.edu.br",
+    "area": "Engenharia de Software Ciências Exatas e da Terra Ciência da Computação Metodologia e Técnicas da Computação Engenharia de Software"
+  },
+  {
+    "id": 8,
+    "name": "André Luiz Przybysz",
+    "email": "andrelp@utfpr.edu.br",
+    "area": "Desenvolvimento de Software, Desenvolvimento de Novos Produtos, Desenvolvimento Sustentável (ODS), Ferramentas de Tomada de Decisão, Cidades Inteligentes, Engenharia de Software Ciências Humanas Educação Engenharias Engenharia de Produção Sistemas Produtivos Sustentáveis Ciências Exatas e da Terra Ciência da Computação Arquitetura de Computadores Lógica e Linguagens de Programação Redes de Computadores Engenharia de Software"
+  },
+  {
+    "id": 9,
+    "name": "André Yoshiaki Kashiwabara",
+    "email": "kashiwabara@utfpr.edu.br",
+    "area": "Bioinformática, Reconhecimento de Padrão, Computação Musical, Inteligência Artificial, Teoria da Computação Ciências Exatas e da Terra Ciência da Computação Teoria da Computação Metodologia e Técnicas da Computação Linguagens de Programação"
+  },
+  {
+    "id": 10,
+    "name": "Antonio Carlos Fernandes da Silva",
+    "email": "antonio@utfpr.edu.br",
+    "area": "Gerenciamento e Projeto de Redes, Arquiteturas de Hardware, Desenvolvimento hardware / Software (arduino, raspberry, UDO, Etc..), Desenvolvimento com FPGAs, Compilação para Hardware Ciências Exatas e da Terra Ciência da Computação Sistemas de Computação Gerenciamento e Projeto de Redes Linguagens de Programação Sistemas Operacionais"
+  },
+  {
+    "id": 11,
+    "name": "Claiton de Oliveira",
+    "email": "claitonoliveira@utfpr.edu.br",
+    "area": "Visão Computacional, Processamento de Imagens, Computação Gráfica Ciências Exatas e da Terra Ciência da Computação Processamento de Imagens Processamento Gráfico (Graphics) Arquitetura de Sistemas de Computação Computação Visual Redes de Computadores"
+  },
+  {
+    "id": 12,
+    "name": "Cléber Gimenez Corrêa",
+    "email": "clebergimenez@utfpt.edu.br",
+    "area": "Realidade Virtual, Visão Computacional, Teste de Software Ciências Exatas e da Terra Ciência da Computação Metodologia e Técnicas da Computação Engenharia de Software"
+  },
+  {
+    "id": 13,
+    "name": "Danilo Sipoli Sanches",
+    "email": "danilosanches@utfpr.edu.br",
+    "area": "Inteligência Artificial, Computação Evolutiva, Teoria dos Grafos Ciências Exatas e da Terra Ciência da Computação Teoria da Computação Metodologia e Técnicas da Computação Linguagens de Programação Aprendizado de Máquina"
+  },
+  {
+    "id": 14,
+    "name": "Debora Goncalves Ribeiro Dias",
+    "email": "deboraribeiro@utfpr.edu.br",
+    "area": "Tecnologias Assistivas, Ensino de Libras Mediado por Computador"
+  },
+  {
+    "id": 15,
+    "name": "Eduardo Cotrin Teixeira",
+    "email": "cotrin@utfpr.edu.br",
+    "area": "Banco de Dados, e-Science (Big Data), Desenvolvimento de Software , Ferramentas Pedagógicas Ciências Exatas e da Terra Ciência da Computação Metodologia e Técnicas da Computação Banco de Dados Sistemas de Informação Ciências Humanas Educação Ensino-Aprendizagem Tecnologia Educacional"
+  },
+  {
+    "id": 16,
+    "name": "Eduardo Filgueiras Damasceno",
+    "email": "damasceno@utfpr.edu.br",
+    "area": "Realidade Virtual, Aumentada, Estendida (RV/RA/XR),  Interfaces Naturais - Natural User Interface Aplicações em Saúde - Informática Médica Neurociência e Neurocomputação - Brain Computer Interface Informática na Educação Ciências Exatas e da Terra Ciência da Computação Metodologia e Técnicas da Computação Processamento Gráfico (Graphics) Ciências Humanas Educação Administração Educacional Administração de Sistemas Educacionais Planejamento e Avaliação Educacional Avaliação de Sistemas, Instituições, Planos e Programas Educacionais Sistemas de Informação Tecnologias Médicas e da Saúde Fundamentos da Educação Economia da Educação"
+  },
+  {
+    "id": 17,
+    "name": "Érica Ferreira de Souza",
+    "email": "ericasouza@utfpr.edu.br",
+    "area": "Teste de Software Gestão do Conhecimento na Engenharia de Software Ciências Exatas e da Terra Ciência da Computação "
+  },
+  {
+    "id": 18,
+    "name": "Fábio Fernandes da Rocha Vicente",
+    "email": "fabiofernandes@utfpr.edu.br",
+    "area": "Bioinformática Reconhecimento de Padrões Ciências Exatas e da Terra Ciência da Computação Ciências Biológicas Biologia Geral Bioinformática Metodologia e Técnicas da Computação"
+  },
+  {
+    "id": 19,
+    "name": "Fabrício Martins Lopes",
+    "email": "fabricio@utfpr.edu.br",
+    "area": "Bioinformática Reconhecimento de Padrões Inteligência Computacional Processamento de Imagens Ciências Exatas e da Terra Ciência da Computação Metodologia e Técnicas da Computação Processamento Gráfico (Graphics) Reconhecimento de Padrões Bioinformática"
+  },
+  {
+    "id": 20,
+    "name": "Flávia Belintani Blum Haddad",
+    "email": "flaviahaddad@utfpr.edu.br",
+    "area": "Engenharia de software Engenharia de requisitos Processo de software Gestão de Projetos de Software Ciências Exatas e da Terra Ciência da Computação Sistemas de Computação Ciências Sociais Aplicadas"
+  },
+  {
+    "id": 21,
+    "name": "Francisco Pereira Junior",
+    "email": "fpereira@utfpr.edu.br",
+    "area": "Processamento de Alto Desempenho Programação Paralela e Distribuída Biga Data / Analytics Ciência de Dados Aplicada à Gestão Pública Ciência de Dados Aplicada à Dados Financeiros Ciências Exatas e da Terra Ciência da Computação Sistemas de Computação Processamento de Alto Desempenho Arquitetura de Sistemas de Computação Big Data"
+  },
+  {
+    "id": 22,
+    "name": "Gabriel Canhadas Genvigir",
+    "email": "gabriel@utfpr.edu.br",
+    "area": "Banco de Dados Manutenção de Software Sistemas de Informação Ciências Exatas e da Terra Ciência da Computação Metodologia e Técnicas da Computação Linguagens de Programação Banco de Dados"
+  },
+  {
+    "id": 23,
+    "name": "Gabriel Costa Silva",
+    "email": "gabrielcosta@utfpr.edu.br",
+    "area": "Desenvolvimento web Desenvolvimento de aplicações em nuvem/cloudware Evolução arquitetural de software Ciências Exatas e da Terra Ciência da Computação Metodologia e Técnicas da Computação Sistemas de Informação Arquitetura de Software Computação em Nuvem Evolução de Software Engenharia de Software"
+  },
+  {
+    "id": 24,
+    "name": "Giovani Volnei Meinerz",
+    "email": "giovanimeinerz@utfpr.edu.br",
+    "area": "Banco de Dados Gestão de Conhecimento (Big Data) Ciências Exatas e da Terra Ciência da Computação Metodologia e Técnicas da Computação Banco de Dados Inteligência Artificial Engenharia de Software"
+  },
+  {
+    "id": 25,
+    "name": "Henrique Yoshikazu Shishido",
+    "email": "shishido@utfpr.edu.br",
+    "area": "Escalonamento de tarefas Programação para dispositivos móveis Informática em Saúde Computação paralela Ciências Exatas e da Terra Ciência da Computação Sistemas de Computação Aplicações Paralelas e Distribuídas de Alto Desempenho Desenvolvimento Mobile Metodologia e Técnicas da Computação Sistemas de Informação"
+  },
+  {
+    "id": 26,
+    "name": "José Antonio Gonçalves",
+    "email": "jgoncalves@utfpr.edu.br",
+    "area": "Desenvolvimento de Software Eng. de Software Desenvolvimento Distribuído de Software Ciências Exatas e da Terra Ciência da Computação Metodologia e Técnicas da Computação SISTEMAS DE INFORMAÇÃO"
+  },
+  {
+    "id": 27,
+    "name": "José Augusto Fabri",
+    "email": "fabri@utfpr.edu.br",
+    "area": "Engenharia de Software Processo de Software Ciências Exatas e da Terra Ciência da Computação Sistemas de Computação Engenharia de Software"
+  },
+  {
+    "id": 28,
+    "name": "Katia Romero Felizardo Scannavino",
+    "email": "katiascannavino@utfpr.edu.br",
+    "area": "Engenharia de Software Experimental Revisão Sistemática Mapeamento Sistemático Ciências Exatas e da Terra Ciência da Computação Engenharia de Software Baseada em Evidências Revisão Sistemática Mineração Visual de Texto"
+  },
+  {
+    "id": 29,
+    "name": "Lucas Dias Hiera Sampaio",
+    "email": "ldsampaio@utfpr.edu.br",
+    "area": "Segurança em redes de computadores, Sistemas modernos de telecomunicações, Rádio Cognitivo, Blockchain e Aplicações, Otimização e Alocação de Recursos em Telecomunicações Engenharias Engenharia Elétrica Telecomunicações Sistemas de Telecomunicações Heuristics and Optimization Aspects of Telecommunications Systems"
+  },
+  {
+    "id": 30,
+    "name": "Luciano Tadeu Esteves Pansanato",
+    "email": "luciano@utfpr.edu.br",
+    "area": "Sistemas de Informação Interação Humano-Computador Ciências Exatas e da Terra Ciência da Computação Metodologia e Técnicas da Computação Interação Humano-Computador Sistemas de Informação Ciências Humanas Educação"
+  },
+  {
+    "id": 31,
+    "name": "Natássya Barlate Floro da Silva",
+    "email": "natassyasilva@utfpr.edu.br",
+    "area": "Redes de Computadores Veículos Autônomos Sistemas Embarcados Ciências Exatas e da Terra Ciência da Computação Sistemas de Computação Robótica, Mecatrônica e Automação"
+  },
+  {
+    "id": 32,
+    "name": "Paulo Augusto Nardi",
+    "email": "paulonardi@utfpr.edu.br",
+    "area": "Desenvolvimento de Software Jogos Teste de Software Banco de Dados Ciências Exatas e da Terra Ciência da Computação Metodologia e Técnicas da Computação Sistemas de Informação Banco de Dados Engenharia de Software"
+  },
+  {
+    "id": 33,
+    "name": "Rodrigo Henrique Cunha Palácios",
+    "email": "rodrigopalacios@utfpr.edu.br",
+    "area": "IoT Inteligência Artificial Visão Computacional Projetos de Hardware/Software Processamento Digital de Sinais Robótica Ciências Exatas e da Terra Ciência da Computação Metodologia e Técnicas da Computação Inteligência Artificial Engenharias Engenharia Elétrica Identificação de Falhas em Motores Elétricos Teoria da Computação Análise de Algoritmos e Complexidade de Computação Engenharia de Software ENGENHARIA DA COMPUTAÇÃO Visão Computacional Robótica"
+  },
+  {
+    "id": 34,
+    "name": "Rogério Santos Pozza",
+    "email": "pozza@utfpr.edu.br",
+    "area": "Redes Corporais, Redes de Sensores sem Fio, Redes Ad Hoc, IoT Sistemas Distribuídos Desenvolvimento de Software (arduino, raspberry, web) Ciências Exatas e da Terra Ciência da Computação Metodologia e Técnicas da Computação Sistemas Distribuídos Sistemas de Informação Sistemas de Computação Sistemas Ubiquos"
+  },
+  {
+    "id": 35,
+    "name": "Rosangela de Fátima Pereira Marquesone",
+    "email": "romarquesone@utfpr.edu.br",
+    "area": "Big Data / Analytics Ciência de dados Processamento distribuído Tecnologias digitais aplicadas à economia circular Ciências Exatas e da Terra Ciência da Computação Processamento de Alto Desempenho Ciências Sociais Aplicadas Ciência da Informação Big Data"
+  },
+  {
+    "id": 36,
+    "name": "Silvio Ricardo Rodrigues Sanches",
+    "email": "silviosanches@utfpr.edu.br",
+    "area": "Visão Computacional Realidade Aumentada Ciências Exatas e da Terra Ciência da Computação Sistemas de Computação Realidade Aumentada Metodologia e Técnicas da Computação Visão Computacional"
+  },
+  {
+    "id": 37,
+    "name": "Vanderley Flor da Rosa",
+    "email": "vanderley@utfpr.edu.br",
+    "area": "Engenharia de Software Ciências Humanas Ciência Política Políticas Públicas Educação Ensino-Aprendizagem Tecnologia Educacional Planejamento e Avaliação Educacional Avaliação de Sistemas, Instituições, Planos e Programas Educacionais Educação Inclusiva Ciências Exatas e da Terra Ciência da Computação Metodologia e Técnicas da Computação Sistemas de Informação"
+  },
+  {
+    "id": 38,
+    "name": "Willian Massami Watanabe",
+    "email": "wwatanabe@utfpr.edu.br",
+    "area": "Engenharia de Software Desenvolvimento Web Interação Humano-Computador Ciências Exatas e da Terra Ciência da Computação Sistemas de Computação Arquitetura de Sistemas de Computação Metodologia e Técnicas da Computação Engenharia de Software Linguagens de Programação Sistemas de Informação"
+  }
+]
