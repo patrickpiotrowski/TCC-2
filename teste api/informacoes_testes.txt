@@ -1,0 +1,5 @@
+Teste 1 : somente informações da tabela dos professores
+
+Teste 2 : informações da tabela + todos os trabalhos utilizados como "area" dos professores (por isso praticamente 100%)
+
+Teste 3 : informações da tabela + areas de cada professor listadas no Lattes

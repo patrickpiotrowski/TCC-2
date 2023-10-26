@@ -38,6 +38,10 @@ def calculate(title, description, id, model, contador):
         with open(f"{os.getcwd()}/professors_data/professors_with_pdf_data.json", 'r', encoding='utf-8') as json_file:
         # Use a função json.load() para carregar o conteúdo do arquivo em uma estrutura de dados Python
             professors = json.load(json_file)
+    elif contador == 3:
+        with open(f"{os.getcwd()}/professors_data/professors_lattes.json", 'r', encoding='utf-8') as json_file:
+        # Use a função json.load() para carregar o conteúdo do arquivo em uma estrutura de dados Python
+            professors = json.load(json_file)
 
     import time
     import timeit
