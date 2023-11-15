@@ -18,14 +18,7 @@ function PresentationCard (darkmode){
     return(
         <Card sx={{ marginTop: '1rem', marginBottom: '1rem' }}>
         <Stack alignItems={'center'} direction="row" justifyContent={'center'} spacing={2}>
-          <ImageList cols={2} sx={{margin: '1rem'}}>
-            <ImageListItem>
-              <img alt='' src={!dark ? avatarDark : avatar} style={{width: '150px', height: '140px'}}></img>
-            </ImageListItem>
-            <ImageListItem>
-              <img alt='' src={!dark ? UTFLogoDark : UTFLogo} style={{width: '350px', height: '100px'}}></img>
-            </ImageListItem>
-          </ImageList>
+          <img alt='' src={!dark ? UTFLogoDark : UTFLogo} style={{width: '350px', height: '150px'}}></img>
         </Stack>
         <Stack>
           <h1 style={{ margin: '1rem', textAlign: 'center', color: dark ? "#303030" : "#FFF" }}>Ajuda para busca de orientador UTFPR-CP</h1>

@@ -1,38 +1,33 @@
 import json
-import os
 import matplotlib.pyplot as plt
-from collections import OrderedDict
+import os
+import re
 
-yearArray = ['2022', '2023']
-modelArray = ['cbow_s50', 'cbow_s100','cbow_s300']
+# Função para carregar dados do arquivo JSON
+def carregar_dados(opened_file):
+    with open(f"{os.getcwd()}/number_results/{opened_file}", 'r') as file:
+        return json.load(file)
 
-for year in yearArray:
-  for model in modelArray:
-    with open(f"{os.getcwd()}/test_2_results/{year}_{model}.json", 'r', encoding='utf-8') as json_file:
-      # loading the file
-      test_result = json.load(json_file, object_pairs_hook=OrderedDict)
-      number_result = []
-      counter = 0
-      # for every work in the file
-      for work in test_result:
-        # taking the first 5 of the results
-        short_results = work["results"][:10]
-        for result in short_results:
-          if work["orientador"] in result["name"]:
-            counter += 1
-            object_result = {}
-            object_result["titulo_trabalho"] = work["titulo"]
-            object_result["orientador"] = work["orientador"]
-            object_result["resultado"] = result["name"]
-            number_result.append(object_result)
+# Lista de arquivos para cada conjunto de trabalhos
+files_2023 = ['test_1_2023_cbow_s50.json', 'test_1_2023_cbow_s100.json', 'test_1_2023_cbow_s300.json']
+files_2022 = ['test_1_2022_cbow_s50.json', 'test_1_2022_cbow_s100.json', 'test_1_2022_cbow_s300.json']
 
-    number_result.insert(0, { 
-                              "total": len(test_result),
-                              "acertos": counter,
-                              "%": round(((counter/len(test_result)) * 100), 2)
-                            })
-    
-    with open(f"number_results/test_2_10_primeiros_{year}_{model}.json", "a") as arquivo_json:
-      json.dump(number_result, arquivo_json)
-      
-    print(number_result)
+# Plotar gráfico com todas as linhas
+plt.figure()
+plt.title('Desempenho dos Modelos em 2022-2 e 2023-1')
+
+extract_model_info = lambda filename: re.search(r'_([a-zA-Z0-9_]+)\.json', filename).group(1)
+
+# Plotar linhas para cada conjunto de trabalhos
+for conjunto, arquivos, cor in zip(['2022-2', '2023-1'], [files_2022, files_2023], ['b', 'g']):
+    for arquivo in arquivos:
+        dados = carregar_dados(arquivo)
+        modelo_info = extract_model_info(arquivo)
+        acertos = dados[0]['acertos']
+        print(acertos)
+        plt.plot(modelo_info, acertos, label=f'{conjunto} - Modelo {modelo_info[0]}', color=cor, linestyle='--')
+
+plt.xlabel('Modelos')
+plt.ylabel('Número de Acertos')
+plt.legend()
+plt.show()

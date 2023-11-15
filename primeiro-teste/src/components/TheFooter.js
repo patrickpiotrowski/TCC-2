@@ -28,6 +28,10 @@ function Footer() {
             <Typography variant="body2" color="text.secondary">
               Trabalho desenvolvido para o TCC de Engenharia de Computação da UTFPR - CP.
             </Typography>
+            <Typography variant="body2" color="text.secondary">
+              <a href="https://github.com/patrickpiotrowski/TCC-2" target="_blank" 
+              title="Repositório" style={{textDecoration: "none", color: "inherit", cursor: "pointer", fontWeight: "bold"}}>Repositório no GitHub</a>
+            </Typography>
           </Grid>
           <Grid item xs={12} sm={6} align="right">
             <Typography variant="h6" color="text.primary" gutterBottom>

@@ -1,4 +1,6 @@
-def calculate(title, description, id, model, contador):
+def calculate(title, description, id, model):
+
+    contador = 1
 
     import json
     import os
@@ -162,7 +164,7 @@ def calculate(title, description, id, model, contador):
     with open(f"data/test_{contador}/{id}-{title}-results.json", "a") as arquivo_json:
         json.dump(array, arquivo_json)
 
-    # return professors, maxDistances, minDistances, timeTaken
+    return professors, maxDistances, minDistances, timeTaken
 
     # !!! if testing, use this part and comment the above return !!!!
 
