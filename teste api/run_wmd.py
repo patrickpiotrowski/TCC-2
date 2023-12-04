@@ -12,12 +12,6 @@ def calculate(title, description, id, model):
         format="%(asctime)s : %(levelname)s : %(message)s", level=logging.INFO
     )
 
-    ###############################################################################
-    # These sentences have very similar content, and as such the WMD should be low.
-    # Before we compute the WMD, we want to remove stopwords ("the", "to", etc.),
-    # as these do not contribute a lot to the information in the sentences.
-    #
-
     # Import and download stopwords from NLTK.
     from nltk.corpus import stopwords
     from nltk import download
@@ -34,15 +28,12 @@ def calculate(title, description, id, model):
     # Define sentences
     if contador == 1:
         with open(f"{os.getcwd()}/professors_data/professors.json", 'r', encoding='utf-8') as json_file:
-        # Use a função json.load() para carregar o conteúdo do arquivo em uma estrutura de dados Python
             professors = json.load(json_file)
     elif contador == 2:
         with open(f"{os.getcwd()}/professors_data/professors_with_pdf_data.json", 'r', encoding='utf-8') as json_file:
-        # Use a função json.load() para carregar o conteúdo do arquivo em uma estrutura de dados Python
             professors = json.load(json_file)
     elif contador == 3:
         with open(f"{os.getcwd()}/professors_data/professors_lattes.json", 'r', encoding='utf-8') as json_file:
-        # Use a função json.load() para carregar o conteúdo do arquivo em uma estrutura de dados Python
             professors = json.load(json_file)
 
     import time
@@ -53,14 +44,6 @@ def calculate(title, description, id, model):
     processed_title = preprocess(title)
     processed_description = preprocess(description)
 
-    ###############################################################################
-    # Now, as mentioned earlier, we will be using some downloaded pre-trained
-    # embeddings. We load these into a Gensim Word2Vec model class.
-    #
-    # .. Important::
-    #   The embeddings we have chosen here require a lot of memory.
-    #
-
     print(processed_title)
     print(processed_description)
 
@@ -69,29 +52,11 @@ def calculate(title, description, id, model):
     from gensim.test.utils import get_tmpfile
     import os
 
-    # print(f"{os.getcwd()}/model/w2v.vectors.kv")
-
-    #fname = get_tmpfile(f"{os.getcwd()}/model/w2v.vectors.kv")
-    #w2v = KeyedVectors.load(fname, mmap="r")
-
     modelUsed = model
 
     fname = get_tmpfile(f"{os.getcwd()}/model/{modelUsed}.txt")
     w2v = KeyedVectors.load_word2vec_format(fname)
     
-
-    # Google's dataset pre trained model
-    # w2v = api.load('word2vec-google-news-300')
-
-    # for word in processed_title:
-    #     print(f"{word}:")
-    #     print("-" * 28)
-    #     for w in w2v.most_similar(word)[:3]:
-    #         print(w[0].ljust(20), round(w[1], 5))
-    #     print()
-
-    ###############################################################################
-
     counter = 0
     bigger_distance_title = 0
     min_distance_title = 100
@@ -177,6 +142,6 @@ def calculate(title, description, id, model):
         del professor["email"]
         del professor["area"]
         professor["media"] = calculate_mean(professor)
-    # Ordenar a lista de objetos com base na média das distâncias
+    # mean order
     objetos_ordenados = sorted(professors, key=lambda x: x["media"])
     return objetos_ordenados
